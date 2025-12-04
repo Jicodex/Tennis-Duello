@@ -403,3 +403,178 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 /* ========== Upcoming Tournaments Css End Here  */
+
+/* ========== TennisDuello Section Css Start Here  */
+#tennisduello{
+  background-color: #050504;
+}
+.section_title {
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 65px;
+}
+.section_bio {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 131%;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #FCFCFD99;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.tennis_item_counts_main{
+  padding: 10px 10px 0px 10px;
+  border-radius: 15px;
+  background-color: #FFFFFF33;
+}
+.tennis_items_c{
+  background-color: #1DAE48;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.tennis_items_c .img_frame{
+width: 50px;
+height: 50px;
+border-radius: 8px;
+background-color: #26333CEB;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.tennis_items_c h2{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+vertical-align: middle;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.tennis_items_c h4{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #26333C;
+margin-bottom: 0px;
+}
+.letest_leagues{
+  margin-top: 40px;
+}
+.letest_leagues h5{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color: #098B30;
+margin-bottom: 30px;
+}
+.letest_card_item{
+  padding: 5px 5px 10px 5px;
+  border-radius: 15px;
+  background-color: #26333C;
+}
+.letest_card_item h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #ffffff;
+margin-top: 15px;
+padding-left: 7px;
+padding-right: 7px;
+}
+.letest_card_item p{
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 131%;
+letter-spacing: 0px;
+color: #FFFFFF;
+padding-left: 7px;
+padding-right: 7px;
+margin-bottom: 12px;
+}
+.letest_card_item a{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #26333C;
+margin-left: 7px;
+margin-right: 7px;
+padding: 13.5px 0;
+background-color: #1DAE48;
+border-radius: 15px;
+display: block;
+text-align: center;
+text-decoration: none;
+transition: all .3s linear;
+}
+.letest_card_item a:hover{
+color: #1DAE48;
+background-color: #ffffff;
+}
+.letest_img_border{
+  position: relative;
+}
+.letest_img_border img{
+  width: 100%;
+  border-radius: 15px;
+}
+.status_leagues{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #1DAE48;
+padding: 9px 8px;
+background-color: #1DAE484A;
+border-radius: 10px;
+}
+a.more_letest{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #FCFCFD;
+text-align: center;
+padding: 18px 16px;
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+text-decoration: none;
+}
+.letest_leagues_card{
+  margin-bottom: 30px;
+}
+/* ========== TennisDuello Section Css End Here  */
