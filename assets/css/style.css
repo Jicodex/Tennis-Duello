@@ -1,10 +1,10 @@
 /* ========= Google Font  */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* ========== Custom Fonts Link  */
 @font-face {
-  font-family: 'ClashDisplayRegular';
-  src: url('assets/fonts/ClashDisplayRegular.otf') format('opentype');
+  font-family: "ClashDisplayRegular";
+  src: url("assets/fonts/ClashDisplayRegular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,20 +26,20 @@
 */
 
 /* ========== Nambar Css Start Here  */
-.navbar{
-    background-color: #006920;
+.navbar {
+  background-color: #006920;
 }
 .navbar-brand h3 {
-	font-family: "Montserrat", sans-serif;
-	color: #ffffff;
-	font-weight: 800;
-	font-size: 20px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	vertical-align: middle;
-	text-transform: uppercase;
-	padding-top: 11px;
-	padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding-top: 11px;
+  padding-left: 10px;
 }
 .navbar-toggler {
   border: none !important;
@@ -72,28 +72,28 @@
   cursor: pointer;
 }
 .custom-select-trigger {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 8px;
-	border-radius: 6px;
-	color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  border-radius: 6px;
+  color: #ffffff;
 }
 .custom-select-trigger img {
   width: 20px;
 }
 .custom-options {
-	position: absolute;
-	top: 110%;
-	right: 0;
-	width: 125%;
-	border-radius: 6px;
-	display: none;
-	flex-direction: column;
-	z-index: 999;
-	background: #0b141d;
-	padding: 2px 10px;
-	color: #fff;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  width: 125%;
+  border-radius: 6px;
+  display: none;
+  flex-direction: column;
+  z-index: 999;
+  background: #0b141d;
+  padding: 2px 10px;
+  color: #fff;
 }
 
 .custom-option {
@@ -108,15 +108,15 @@
 }
 
 .navbar-brand {
-	width: 60%;
+  width: 60%;
 }
-.navbar-brand img{
-	width: 100%;
+.navbar-brand img {
+  width: 100%;
 }
 /* ========== Nambar Css End Here  */
 
 /* ========== Banner/Here Css Start Here  */
-#banner_area{
+#banner_area {
   background-image: url(../img/banner.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -124,79 +124,79 @@
   height: 100vh;
   position: relative;
 }
-.banner_content{
+.banner_content {
   position: absolute;
   bottom: 0;
   left: 20px;
   right: 20px;
 }
-.banner_content h5{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #1DAE48;
+.banner_content h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #1dae48;
 }
-.banner_content h1{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 54.93px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase;
-color: #ffffff;
+.banner_content h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 54.93px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.banner_content p{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #ffffff;
+.banner_content p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.banner_content a.login{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: Regular;
-font-size: 22.5px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #ffffff;
-display: block;
-padding: 20px 18px;
-background-color: #1DAE48;
-border-radius: 10px;
-text-decoration: none;
-transition: all .3s linear;
+.banner_content a.login {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: block;
+  padding: 20px 18px;
+  background-color: #1dae48;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s linear;
 }
-.banner_content a.register{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: Regular;
-font-size: 22.5px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #ffffff;
-display: inline-block;
-padding: 20px 30px 15px 30px;
-background-color: #FFFFFF78;
-border-radius: 10px;
-text-decoration: none;
-transition: all .3s linear;
-justify-content: center
+.banner_content a.register {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: inline-block;
+  padding: 20px 30px 15px 30px;
+  background-color: #ffffff78;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  justify-content: center;
 }
-.banner_content a.login:hover{
+.banner_content a.login:hover {
   background-color: #ffffff;
   color: #006920;
 }
-.banner_content a.register:hover{
+.banner_content a.register:hover {
   background-color: #ffffff;
   color: #006920;
 }
@@ -204,11 +204,11 @@ justify-content: center
 /* ========== Banner/Here Css End Here  */
 
 /* ========== Join Leagues Css Start Here  */
-#join_leagues{
+#join_leagues {
   background-color: #060605;
   padding: 30px 0 50px 0;
 }
-.leagues_card{
+.leagues_card {
   background-image: url(../img/leagu_card.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -219,7 +219,7 @@ justify-content: center
   padding: 20px 25px 25px 20px;
   margin-right: 8px;
 }
-.green_overlay{
+.green_overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -228,63 +228,63 @@ justify-content: center
   border-radius: 15px;
   z-index: -1;
 }
-.leagues_card img.icons_star{
+.leagues_card img.icons_star {
   width: 45px;
   margin-bottom: 15px;
 }
-.leagues_card h3{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
-margin-bottom: 15px;
+.leagues_card h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 15px;
 }
-.leagues_card p{
-font-family: Roboto;
-font-weight: 400;
-font-size: 12px;
-line-height: 131%;
-letter-spacing: 0px;
-color: #ffffff;
-max-width: 60%;
+.leagues_card p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  color: #ffffff;
+  max-width: 60%;
 }
-.leagues_card a{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-padding: 12.5px 15px;
-background-color: #0505044F;
-color: #ffffff;
-text-decoration: none;
-border-radius: 10px;
+.leagues_card a {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  padding: 12.5px 15px;
+  background-color: #0505044f;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
 }
-.join_leagues_slider_main  .slick-dots{
+.join_leagues_slider_main .slick-dots {
   padding-left: 0px;
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
-.join_leagues_slider_main  .slick-dots li{
+.join_leagues_slider_main .slick-dots li {
   width: 6px !important;
   height: 6px !important;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 15px 2px;
   border-radius: 2px;
 }
-.join_leagues_slider_main  .slick-dots li button{
+.join_leagues_slider_main .slick-dots li button {
   border: none;
   color: transparent;
   background-color: transparent;
 }
-.join_leagues_slider_main  .slick-dots li.slick-active{
+.join_leagues_slider_main .slick-dots li.slick-active {
   border: none;
   color: transparent;
   width: 53px !important;
@@ -295,286 +295,511 @@ border-radius: 10px;
 /* ========== Join Leagues Css End Here  */
 
 /* ========== Upcoming Tournaments Css Start Here  */
-#upcoming{
+#upcoming {
   background-color: #060605;
 }
-.upcoming_tour h3{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-color: #098B30;
-margin-bottom: 30px;
-}
-.tour_logo h4{
-font-family: Roboto;
-font-weight: 600;
-font-size: 10px;
-line-height: 131%;
-letter-spacing: 0px;
-text-align: center;
-vertical-align: middle;
-text-transform: uppercase;
-color: #ffffff;
-margin-top: 6px;
-}
-.upcoming_tour h2{
+.upcoming_tour h3 {
   font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 36px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-color: #ffffff;
-margin-top: 65px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #098b30;
+  margin-bottom: 30px;
 }
-.upcoming_tour p{
+.tour_logo h4 {
   font-family: Roboto;
-font-weight: 400;
-font-size: 16px;
-line-height: 131%;
-letter-spacing: 0px;
-text-align: center;
-color: #FCFCFD99;
-max-width: 80%;
-margin: 0 auto;
-margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 6px;
 }
-.benifit_leag_card{
-  background-color: #26333C;
+.upcoming_tour h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 65px;
+}
+.upcoming_tour p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fcfcfd99;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.benifit_leag_card {
+  background-color: #26333c;
   padding: 5px 5px 10px 5px;
   border-radius: 15px;
   margin-bottom: 22px;
 }
-.benifit_leag_card img{
+.benifit_leag_card img {
   width: 100%;
   border-radius: 15px;
 }
-.benifit_leag_card p{
+.benifit_leag_card p {
   font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
-margin-top: 15px;
-margin-bottom: 0px;
-padding-left: 7px;
-padding-right: 7px;
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
-.benifit_list{
+.benifit_list {
   background-image: url(../img/benifit_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.benifit_card_main{
-  background-color: #FFFFFF33;
+.benifit_card_main {
+  background-color: #ffffff33;
   padding: 10px;
   border-radius: 15px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.benifit_list_items{
+.benifit_list_items {
   padding: 10px;
   border-radius: 15px;
-  background-color: #1C252B;
+  background-color: #1c252b;
   margin-bottom: 10px;
   align-items: center;
 }
-.benifit_list_items img{
+.benifit_list_items img {
   width: 62px;
   height: 62px;
 }
-.benifit_list_items h4{
+.benifit_list_items h4 {
   font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 /* ========== Upcoming Tournaments Css End Here  */
 
 /* ========== TennisDuello Section Css Start Here  */
-#tennisduello{
+#tennisduello {
   background-color: #050504;
 }
 .section_title {
-	font-family: "Bebas Neue", sans-serif;
-	font-weight: 400;
-	font-size: 36px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-align: center;
-	text-transform: uppercase;
-	color: #ffffff;
-	margin-top: 65px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 65px;
 }
 .section_bio {
-	font-family: Roboto;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 131%;
-	letter-spacing: 0px;
-	text-align: center;
-	color: #FCFCFD99;
-	max-width: 80%;
-	margin: 0 auto;
-	margin-bottom: 30px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fcfcfd99;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
-.tennis_item_counts_main{
+.tennis_item_counts_main {
   padding: 10px 10px 0px 10px;
   border-radius: 15px;
-  background-color: #FFFFFF33;
+  background-color: #ffffff33;
 }
-.tennis_items_c{
-  background-color: #1DAE48;
+.tennis_items_c {
+  background-color: #1dae48;
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 10px;
 }
-.tennis_items_c .img_frame{
-width: 50px;
-height: 50px;
-border-radius: 8px;
-background-color: #26333CEB;
-align-items: center;
-display: flex;
-justify-content: center;
+.tennis_items_c .img_frame {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #26333ceb;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.tennis_items_c h2{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 48px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: right;
-vertical-align: middle;
-text-transform: uppercase;
-color: #FFFFFF;
+.tennis_items_c h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.tennis_items_c h4{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 32px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: uppercase;
-color: #26333C;
-margin-bottom: 0px;
+.tennis_items_c h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #26333c;
+  margin-bottom: 0px;
 }
-.letest_leagues{
+.letest_leagues {
   margin-top: 40px;
 }
-.letest_leagues h5{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
-color: #098B30;
-margin-bottom: 30px;
+.letest_leagues h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #098b30;
+  margin-bottom: 30px;
 }
-.letest_card_item{
+.letest_card_item {
   padding: 5px 5px 10px 5px;
   border-radius: 15px;
-  background-color: #26333C;
+  background-color: #26333c;
 }
-.letest_card_item h3{
-font-family: "Bebas Neue", sans-serif;
+.letest_card_item h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.letest_card_item p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 12px;
+}
+.letest_card_item a {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #26333c;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 13.5px 0;
+  background-color: #1dae48;
+  border-radius: 15px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.letest_card_item a:hover {
+  color: #1dae48;
+  background-color: #ffffff;
+}
+.letest_img_border {
+  position: relative;
+}
+.letest_img_border img {
+  width: 100%;
+  border-radius: 15px;
+}
+.status_leagues {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #1dae48;
+  padding: 9px 8px;
+  background-color: #1dae484a;
+  border-radius: 10px;
+}
+a.more_letest {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcfcfd;
+  text-align: center;
+  padding: 18px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.letest_leagues_card {
+  margin-bottom: 30px;
+}
+/* ========== TennisDuello Section Css End Here  */
+
+/* ========== Our player’s opinions Css Start Here  */
+#our_player_opinions {
+  background-color: #050504;
+  background-image: url(../img/player_opinion_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 56px;
+}
+.player_opinion_items {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #26333cd9;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.player_opinion_items img {
+  width: 100%;
+  border-radius: 10px;
+}
+.player_opinion_items p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  color: #fcfcfd99;
+  margin: 30px 7px;
+}
+.player_opinion_items h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 0px 7px;
+  margin-bottom: 0px;
+}
+.player_opinion_items span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  color: #1dae48;
+  padding: 0px 7px;
+}
+.left_arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  background-color: #1dae48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin: 0 21px;
+}
+.left_arrow:hover {
+  background-color: #ffffff;
+}
+.left_arrow img {
+  width: 100%;
+  padding: 10px;
+}
+.right_arrow {
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  background-color: #1dae48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin: 0 21px;
+}
+.right_arrow:hover {
+  background-color: #ffffff;
+}
+.right_arrow img {
+  width: 100%;
+  padding: 10px;
+}
+/* ========== Our player’s opinions Css End Here  */
+
+/* ========== Last Two Game Section Css Start Here  */
+#last_two_game {
+  background-color: #050504;
+  padding-bottom: 50px;
+}
+.game-card {
+  background: #212C34;
+  border-radius: 15px;
+  padding: 15px 10px 1px 10px;
+  color: #fff;
+}
+.game-card .details-btn {
+  background: #10b65c;
+  border-radius: 15px;
+  padding: 7px 41px 7px 9px;
+  color: #26333C;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  border: none;
+}
+.player-row {
+  background: #FFFFFF40;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.player-img {
+  width: 41px;
+  height: 41px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.result-table th,
+.result-table td {
+  font-size: 14px;
+  text-align: center;
+  color: #d7d9db;
+}
+.result-table td {
+  font-weight: 600;
+  color: #fff;
+}
+.game-card h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.game-card small {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 131%;
+  letter-spacing: 0px;
+  color: #fcfcfd99;
+}
+.game_table_header span{
+  font-family: Roboto;
 font-weight: 400;
-font-size: 22.5px;
+font-size: 12px;
 line-height: 100%;
 letter-spacing: 0%;
 text-transform: capitalize;
 color: #ffffff;
-margin-top: 15px;
-padding-left: 7px;
-padding-right: 7px;
 }
-.letest_card_item p{
+.player-row span.name{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.player-row span{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+/* ========== Last Two Game Section Css End Here  */
+
+/* ========== Footer Section Css Start Here  */
+#footer_area{
+  padding: 37px 0px 28px 0px;
+  background-color: #006920;
+}
+.footer_menu ul{
+  padding-left: 0px;
+  list-style-type: none;
+}
+.footer_menu ul li a{
 font-family: Roboto;
 font-weight: 400;
-font-size: 12px;
-line-height: 131%;
+font-size: 14.4px;
+line-height: 130%;
 letter-spacing: 0px;
-color: #FFFFFF;
-padding-left: 7px;
-padding-right: 7px;
-margin-bottom: 12px;
-}
-.letest_card_item a{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
+text-align: right;
 text-transform: capitalize;
-color: #26333C;
-margin-left: 7px;
-margin-right: 7px;
-padding: 13.5px 0;
-background-color: #1DAE48;
-border-radius: 15px;
-display: block;
-text-align: center;
 text-decoration: none;
-transition: all .3s linear;
+color: #ffffff;
 }
-.letest_card_item a:hover{
-color: #1DAE48;
-background-color: #ffffff;
-}
-.letest_img_border{
-  position: relative;
-}
-.letest_img_border img{
-  width: 100%;
-  border-radius: 15px;
-}
-.status_leagues{
-  position: absolute;
-  right: 8px;
-  top: 8px;
-font-family: "Bebas Neue", sans-serif;
+.copyright p{
+font-family: Roboto;
 font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #1DAE48;
-padding: 9px 8px;
-background-color: #1DAE484A;
-border-radius: 10px;
-}
-a.more_letest{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 18px;
+font-size: 9.22px;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
-text-transform: capitalize;
-color: #FCFCFD;
+color: #ffffff;
+margin-bottom: 0px;
+}
+.copyright p a{
+font-family: Roboto;
+font-weight: 400;
+font-size: 9.22px;
+line-height: 100%;
+letter-spacing: 0%;
 text-align: center;
-padding: 18px 16px;
-border: 1px solid #FFFFFF;
-border-radius: 15px;
+color: #ffffff;
+margin-bottom: 0px;
 text-decoration: none;
 }
-.letest_leagues_card{
-  margin-bottom: 30px;
-}
-/* ========== TennisDuello Section Css End Here  */
+/* ========== Footer Section Css End Here  */

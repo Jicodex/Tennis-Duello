@@ -113,3 +113,12 @@ $('.join_leagues_slider_main').slick({
     }
   ]
 });
+
+$('.player_opinion_slider_main').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  prevArrow: $('.left_arrow'),
+  nextArrow: $('.right_arrow'),
+});
