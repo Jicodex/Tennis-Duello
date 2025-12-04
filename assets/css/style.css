@@ -1,0 +1,370 @@
+/* ========= Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ========== Custom Fonts Link  */
+@font-face {
+  font-family: 'ClashDisplayRegular';
+  src: url('assets/fonts/ClashDisplayRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+    
+*/
+
+/* ========== Nambar Css Start Here  */
+.navbar{
+    background-color: #006920;
+}
+.navbar-brand h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+	text-transform: uppercase;
+	padding-top: 11px;
+	padding-left: 10px;
+}
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  display: none;
+}
+
+.custom-toggler svg {
+  transition: 0.25s ease;
+  color: #fff !important;
+}
+
+.svg-icon.path-thick path {
+  stroke-width: 3;
+}
+
+.svg-icon.path-thicker path {
+  stroke-width: 4;
+}
+.custom-select-wrapper {
+  position: relative;
+  width: 50px;
+}
+
+.custom-select {
+  position: relative;
+  cursor: pointer;
+}
+.custom-select-trigger {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px;
+	border-radius: 6px;
+	color: #ffffff;
+}
+.custom-select-trigger img {
+  width: 20px;
+}
+.custom-options {
+	position: absolute;
+	top: 110%;
+	right: 0;
+	width: 125%;
+	border-radius: 6px;
+	display: none;
+	flex-direction: column;
+	z-index: 999;
+	background: #0b141d;
+	padding: 2px 10px;
+	color: #fff;
+}
+
+.custom-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.custom-option img {
+  width: 20px;
+}
+
+.navbar-brand {
+	width: 60%;
+}
+.navbar-brand img{
+	width: 100%;
+}
+/* ========== Nambar Css End Here  */
+
+/* ========== Banner/Here Css Start Here  */
+#banner_area{
+  background-image: url(../img/banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 892px;
+  position: relative;
+}
+.banner_content{
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+}
+.banner_content h5{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #1DAE48;
+}
+.banner_content h1{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 54.93px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #ffffff;
+}
+.banner_content p{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #ffffff;
+}
+.banner_content a.login{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 22.5px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #ffffff;
+display: block;
+padding: 20px 18px;
+background-color: #1DAE48;
+border-radius: 10px;
+text-decoration: none;
+transition: all .3s linear;
+}
+.banner_content a.register{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 22.5px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #ffffff;
+display: inline-block;
+padding: 20px 30px 15px 30px;
+background-color: #FFFFFF78;
+border-radius: 10px;
+text-decoration: none;
+transition: all .3s linear;
+justify-content: center
+}
+.banner_content a.login:hover{
+  background-color: #ffffff;
+  color: #006920;
+}
+.banner_content a.register:hover{
+  background-color: #ffffff;
+  color: #006920;
+}
+
+/* ========== Banner/Here Css End Here  */
+
+/* ========== Join Leagues Css Start Here  */
+#join_leagues{
+  background-color: #060605;
+  padding: 30px 0 50px 0;
+}
+.leagues_card{
+  background-image: url(../img/leagu_card.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+  z-index: 1;
+  padding: 20px 25px 25px 20px;
+  margin-right: 8px;
+}
+.green_overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  z-index: -1;
+}
+.leagues_card img.icons_star{
+  width: 45px;
+  margin-bottom: 15px;
+}
+.leagues_card h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 15px;
+}
+.leagues_card p{
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 131%;
+letter-spacing: 0px;
+color: #ffffff;
+max-width: 60%;
+}
+.leagues_card a{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+padding: 12.5px 15px;
+background-color: #0505044F;
+color: #ffffff;
+text-decoration: none;
+border-radius: 10px;
+}
+.join_leagues_slider_main  .slick-dots{
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.join_leagues_slider_main  .slick-dots li{
+  width: 6px !important;
+  height: 6px !important;
+  background-color: #FFFFFF;
+  margin: 15px 2px;
+  border-radius: 2px;
+}
+.join_leagues_slider_main  .slick-dots li button{
+  border: none;
+  color: transparent;
+  background-color: transparent;
+}
+.join_leagues_slider_main  .slick-dots li.slick-active{
+  border: none;
+  color: transparent;
+  width: 53px !important;
+  height: 6px !important;
+  border-radius: 2px;
+  background-color: #006920;
+}
+/* ========== Join Leagues Css End Here  */
+
+/* ========== Upcoming Tournaments Css Start Here  */
+#upcoming{
+  background-color: #060605;
+}
+.upcoming_tour h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color: #098B30;
+margin-bottom: 30px;
+}
+.tour_logo h4{
+font-family: Roboto;
+font-weight: 600;
+font-size: 10px;
+line-height: 131%;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: #ffffff;
+margin-top: 6px;
+}
+.upcoming_tour h2{
+  font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+margin-top: 65px;
+}
+.upcoming_tour p{
+  font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 131%;
+letter-spacing: 0px;
+text-align: center;
+color: #FCFCFD99;
+max-width: 80%;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+.benifit_leag_card{
+  background-color: #26333C;
+  padding: 5px 5px 10px 5px;
+  border-radius: 15px;
+  margin-bottom: 22px;
+}
+.benifit_leag_card img{
+  width: 100%;
+  border-radius: 15px;
+}
+.benifit_leag_card p{
+  font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: 15px;
+margin-bottom: 0px;
+padding-left: 7px;
+padding-right: 7px;
+}
+/* ========== Upcoming Tournaments Css End Here  */
