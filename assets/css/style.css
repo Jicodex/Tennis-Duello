@@ -121,7 +121,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 892px;
+  height: 100vh;
   position: relative;
 }
 .banner_content{
@@ -366,5 +366,40 @@ margin-top: 15px;
 margin-bottom: 0px;
 padding-left: 7px;
 padding-right: 7px;
+}
+.benifit_list{
+  background-image: url(../img/benifit_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.benifit_card_main{
+  background-color: #FFFFFF33;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.benifit_list_items{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #1C252B;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.benifit_list_items img{
+  width: 62px;
+  height: 62px;
+}
+.benifit_list_items h4{
+  font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
 }
 /* ========== Upcoming Tournaments Css End Here  */
