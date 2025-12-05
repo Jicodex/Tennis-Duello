@@ -901,8 +901,8 @@ margin-bottom: 0;
     margin-left: auto;
 }
 .page_name h3{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 700;
+font-family: "Clash Display Variable";
+font-weight: 500;
 font-size: 34px;
 line-height: 100%;
 letter-spacing: 0%;
@@ -1356,4 +1356,207 @@ letter-spacing: 0%;
 vertical-align: middle;
 text-transform: capitalize;
 color: #ffffff;
+}
+/* Form wrapper center */
+.unique-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styled select */
+.unique-select {
+  padding: 10px 60px 10px 15px;
+font-family: "Clash Display Variable";
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path fill="none" stroke="%23666" stroke-width="2" d="M1 1l4 4 4-4"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px 12px;
+  border: none;
+  margin-bottom: 29px;
+}
+
+/* Hover effect */
+.unique-select:hover {
+  border-color: #888;
+}
+
+/* Focus effect */
+.unique-select:focus {
+  outline: none;
+  border-color: #007bff00;
+  box-shadow: 0 0 0px rgba(0, 123, 255, 0.5);
+}
+.tournament_card_box{
+  border: 1px solid #FFFFFF4D;
+  border-radius: 15px;
+  background-color: #FFFFFF0D;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.tournament_card_box img.cover{
+  width: 115px;
+  height: 125px;
+  border-radius: 17.07px;
+  margin-right: 20px;
+}
+.tournament_card_content{
+  align-self: center;
+}
+.tournament_card_content h3{
+font-family: Clash Display Variable;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: start;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}
+.tournament_card_content img{
+  height: 17px;
+  max-width: 20px;
+  margin-right: 10px;
+}
+.tournament_card_content p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF99;
+}
+.tournament_card_status{
+  align-self: center;
+  margin-left: 10px;
+}
+.touenament_last_doller{
+  align-self: end;
+  margin-left: 10px;
+  text-align: end;
+}
+.tournament_card_status p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-bottom: 10px;
+}
+.touenament_last_doller p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+border: 1px solid #FFFFFF4D;
+padding: 6px 20px;
+border-radius: 15px;
+}
+.tournament_card_status .finish_status{
+  height: 10px;
+  width: 40px;
+  background-color: #098B30;
+  border-radius: 15px;
+}
+.tournament_list_card h4{
+font-family: Clash Display Variable;
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-bottom: 25px;
+}
+.game_vs_area_card{
+  background-color: #FFFFFF14;
+  border: 0.55px solid #FFFFFF26;
+  border-radius: 11.05px;
+  padding: 11px 5px;
+}
+.player_card_game {
+	border: 0.55px solid #FFFFFF26;
+	border-radius: 11.05px;
+	padding: 20px 20px;
+}
+.player_card_game img.cover{
+border: 3.47px solid #FFFFFF;
+border-radius: 100px;
+width: 90px;
+height: 90px;
+}
+.player_card_game h3{
+font-family: Clash Display Variable;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.player_card_game h4{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.player_card_game p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.player_card_game img{
+  width: 16px;
+}
+.game_vs_card{
+  position: relative;
+}
+.versus_img{
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+}
+.game_vs_area_card .game-card{
+  background-color: #FFFFFF0D;
+  border: 1px solid #FFFFFF4D;
+  margin-top: 30px;
+}
+.game_vs_area_card .player-row {
+	background-color: #FFFFFF0D;
+  border: 0.84px solid #FFFFFF47;
 }

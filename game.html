@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game - Tennis Duello</title>
+    <!-- ========== All Css Link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ========== Navbar Start Here  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="d-flex align-items-center">
+            <img src="assets/img/logo.svg" alt="logo" />
+          </div>
+        </a>
+
+        <!-- Custom Toggle Button -->
+        <div class="custom-select-wrapper d-none">
+          <div class="custom-select">
+            <div class="custom-select-trigger">
+              <img src="assets/img/icons/united-states.svg" alt="flag" />
+              <span>En</span>
+            </div>
+            <div class="custom-options">
+              <div class="custom-option" data-value="en">
+                <img src="assets/img/icons/united-states.svg" alt="flag" /> En
+              </div>
+              <div class="custom-option" data-value="bd">
+                <img src="assets/img/icons/bangladesh.svg" alt="flag" /> Bn
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="lang" id="lang" />
+        </div>
+
+        <button class="navbar-toggler custom-toggler" type="button">
+          <!-- Bar Icon -->
+          <span class="icon-bar svg-icon path-thick" id="toggleIcon">
+            <svg width="28" height="28" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M3 6h18M3 12h18M3 18h18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+        </button>
+
+        <button class="top_message" id="msgToggleBtn">
+          <img src="assets/img/icons/comments.svg" alt="icon" />
+          <div class="message_count">2</div>
+        </button>
+        <!-- Message Popup -->
+        <div class="message_popup" id="messagePopup">
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Daniel</h6>
+              <p>Thanks!</p>
+            </div>
+            <span>2:17 PM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Emma</h6>
+              <p>Let's play!</p>
+            </div>
+            <span class="online_dot"></span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Alex</h6>
+              <p>Tomorrow</p>
+            </div>
+            <span>Tomorrow</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Rachel</h6>
+              <p>Congratulations!</p>
+            </div>
+            <span>11:15 AM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Coach Miller</h6>
+              <p>Nice shot.</p>
+            </div>
+            <span>9:30 AM</span>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== Navbar End Here  -->
+
+    <!-- ========== Banner Section Start Here  -->
+    <section id="profile_banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="profile_page_title page_name text-center mb-3">
+              <h3 class="mb-2">Games</h3>
+              <p class="section_bio">
+                Tennis Duello offers a variety of features designed to keep you
+                on the edge of your seat
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Banner Section Start Here  -->
+
+    <!-- ========== Game VS Game Section Start Here  -->
+    <section id="game_vs_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="game_vs_area_card">
+              <div class="game_vs_card">
+                <div class="d-flex justify-content-between gap-1">
+                  <div class="player_card_game text-center">
+                    <img class="cover" src="assets/img/profile.png" alt="img" />
+                    <h3>Draymond</h3>
+                    <h4>Ranking No.13</h4>
+                    <p>From France</p>
+                    <div class="d-flex gap-1 justify-content-center">
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                    </div>
+                  </div>
+                  <div class="player_card_game text-center">
+                    <img class="cover" src="assets/img/profile.png" alt="img" />
+                    <h3>Draymond</h3>
+                    <h4>Ranking No.13</h4>
+                    <p>From France</p>
+                    <div class="d-flex gap-1 justify-content-center">
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                      <img src="assets/img/icons/star.svg" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <img
+                  src="assets/img/icons/versus.svg"
+                  alt="icon"
+                  class="versus_img"
+                />
+              </div>
+
+              <div class="game-card">
+                <!-- Table Head -->
+                <div
+                  class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                >
+                  <span class="flex-grow-1"> </span>
+                  <span style="width: 55px">Result</span>
+                  <span style="width: 40px">Set1</span>
+                  <span style="width: 40px">Set2</span>
+                  <span style="width: 40px">Set3</span>
+                </div>
+
+                <!-- Player 1 -->
+                <div class="player-row d-flex align-items-center">
+                  <img
+                    src="https://i.pravatar.cc/100?img=12"
+                    class="player-img"
+                  />
+                  <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                  <span style="width: 55px" class="text-center">2</span>
+                  <span style="width: 40px" class="text-center">6</span>
+                  <span style="width: 40px" class="text-center">6</span>
+                  <span style="width: 40px" class="text-center">10</span>
+                </div>
+
+                <!-- Player 2 -->
+                <div class="player-row d-flex align-items-center">
+                  <img
+                    src="https://i.pravatar.cc/100?img=20"
+                    class="player-img"
+                  />
+                  <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                  <span style="width: 55px" class="text-center">1</span>
+                  <span style="width: 40px" class="text-center">2</span>
+                  <span style="width: 40px" class="text-center">7</span>
+                  <span style="width: 40px" class="text-center">12</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Game VS Game Section End Here  -->
+
+    <!-- ========== Footer Section Start Here  -->
+    <footer id="footer_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/footer_logo.png" alt="logo" class="w-100" />
+          </div>
+          <div class="col-6">
+            <div class="footer_menu text-end">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copyright mt-4">
+          <div class="col-lg-12">
+            <div class="social_icon d-flex justify-content-center gap-1 mb-3">
+              <a href="#"
+                ><img src="assets/img/icons/InstagramLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/LinkedinLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/FacebookLogo.svg" alt="icon"
+              /></a>
+            </div>
+            <p>
+              Copyright © 2025 <a href="#">Tennisduello.com</a> . All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== Footer Section End Here  -->
+
+    <!-- ========== All JS Link  -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
