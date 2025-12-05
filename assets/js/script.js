@@ -122,3 +122,18 @@ $('.player_opinion_slider_main').slick({
   prevArrow: $('.left_arrow'),
   nextArrow: $('.right_arrow'),
 });
+
+// ==== Top message popup 
+ const toggleBtn1 = document.getElementById("msgToggleBtn");
+    const popup = document.getElementById("messagePopup");
+
+    toggleBtn1.addEventListener("click", () => {
+        popup.style.display = popup.style.display === "block" ? "none" : "block";
+    });
+
+    // Click outside to close
+    document.addEventListener("click", function(e){
+        if(!toggleBtn1.contains(e.target) && !popup.contains(e.target)){
+            popup.style.display = "none";
+        }
+    });

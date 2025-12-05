@@ -3,10 +3,8 @@
 
 /* ========== Custom Fonts Link  */
 @font-face {
-  font-family: "ClashDisplayRegular";
-  src: url("assets/fonts/ClashDisplayRegular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Clash Display Variable";
+  src: url("../fonts/ClashDisplayVariable.ttf") format("truetype");
 }
 /* .open-sans-<uniquifier> {
   font-family: "Open Sans", sans-serif;
@@ -803,3 +801,559 @@ margin-bottom: 0px;
 text-decoration: none;
 }
 /* ========== Footer Section Css End Here  */
+/*  
+========================================
+=============== Profile Page Style Here 
+========================================
+  */
+  body{
+    background-color: #050505;
+  }
+.top_message{
+  border: none;
+  background-color: transparent;
+  position: relative;
+    cursor: pointer;
+}
+.message_count{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #ff7676;
+  font-size: 7px;
+  color: #006920;
+  border-radius: 100px;
+}
+.top_message img{
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Popup box */
+.message_popup {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 300px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 10px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    display: none;
+    z-index: 999;
+}
+
+.msg_item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.msg_item:last-child {
+    border-bottom: none;
+}
+
+.msg_item img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.msg_item h6 {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: start;
+vertical-align: middle;
+text-transform: capitalize;
+color: #050504;
+margin-left: 0;
+margin-bottom: 0;
+}
+
+.msg_item p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.msg_item span {
+    margin-left: auto;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Online green dot */
+.online_dot {
+    width: 10px;
+    height: 10px;
+    background: #22c55e;
+    border-radius: 50%;
+    margin-left: auto;
+}
+.page_name h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 700;
+font-size: 34px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.profile_page_title{
+  margin-top: 52px;
+  margin-bottom: 60px;
+}
+.profile_image{
+  text-align: center;
+}
+.profile_image img{
+width: 93px;
+height: 93px;
+object-fit: cover;
+border: 3.47px solid #FFFFFF;
+border-radius: 100px;
+}
+.profile_info h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-top: 17px;
+margin-bottom: 15px;
+}
+.profile_info h4{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 20.83px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}
+.profile_info h5{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-top: 15px;
+}
+.profile_info h2{
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #ffffff;
+margin-top: 15px;
+}
+.star_rating img{
+  width: 23px;
+}
+.profile_info p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #ffffff;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+.profile_about_card{
+  background-color: #FFFFFF14;
+  border-radius: 11.05px;
+  border: 0.55px solid #FFFFFF26;
+  padding: 20px 15px;
+  height: 280px;
+  width: 50%;
+  margin-bottom: 40px;
+}
+.profile_about_card h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 500;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+border-bottom: 0.55px solid #FFFFFF26;
+margin-bottom: 9px;
+padding-bottom: 9px;
+}
+.profile_about_card_list img{
+  width: 16px;
+  height: 16px;
+}
+.profile_about_card_list p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-left: 6.5px;
+}
+.profile_about_card_list span{
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-left: 6.5px;
+}
+.profile_button_area button{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: #ffffff;
+display: block;
+width: 100%;
+padding: 13.5px 0;
+border: none;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.jx-dashboard-section {
+    padding: 20px 0;
+    background: #121212;
+}
+
+/* Card style */
+.jx-card {
+    background: #1D1D1D;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+.jx-chart-title {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Perfect circle charts */
+.jx-canvas-wrap {
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.jx-canvas-wrap canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Line + Area chart wraps */
+.jx-canvas-wrap-line {
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.jx-canvas-wrap-line canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+.profile_touranements_list{
+  padding: 20px;
+  background-color: #26333C;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.profile_touranements_list img{
+  width: 52px;
+  height: 52px;
+}
+.profile_tournament_list_content h2{
+font-family: "Open Sans", sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-left: 15px;
+}
+.profile_tournament_list_content p{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 21px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-left: 15px;
+margin-bottom: 0px;
+}
+
+.profile_card{
+  background-color: #FFFFFF0D;
+  border: 1px solid #FFFFFF4D;
+  border-radius: 15px;
+  padding: 14px 20px;
+}
+.profile_card img{
+  border: 3.47px solid #FFFFFF;
+  border-radius: 100px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.profile_card_content{
+  margin-left: 15px;
+}
+.profile_card_content h3{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.profile_card_content h2{
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.profile_card_content p{
+font-family: "Open Sans", sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 5px;
+color: #FFFFFF;
+}
+.profile_card_content img{
+width: 22px;
+height: 22px;
+border: none;
+border-radius: 0px;
+}
+.your_register_card{
+  background-color: #FFFFFF0D;
+  border: 1px solid #FFFFFF4D;
+  border-radius: 15px;
+  padding: 40px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.your_register_card h3{
+font-family: "Clash Display Variable", sans-serif;
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+padding-bottom: 40px;
+border-bottom: 1px solid #FFFFFF4D;
+margin-bottom: 40px;
+}
+.your_register_card img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 17.07px;
+  margin-bottom: 34px;
+}
+.your_register_card h2{
+font-family: "Clash Display Variable", sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}
+.your_register_card span{
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-bottom: 10px;
+}
+.your_register_card p{
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-bottom: 25px;
+}
+.your_register_card a{
+font-family: "Clash Display Variable", sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+border: 1.14px solid #FFFFFF;
+color: #ffffff;
+padding: 13.5px 22px;
+border-radius: 9.1px;
+text-decoration: none;
+}
+.dual_invite_card{
+  background-color: #FFFFFF0D;
+  border: 1px solid #FFFFFF4D;
+  border-radius: 15px;
+  padding: 30px 20px;
+}
+.dual_invite_card h3{
+font-family: "Clash Display Variable", sans-serif;
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}
+.dual_invite_sub_card{
+  padding: 30px 25px;
+  border: 1px solid #FFFFFF4D;
+  background-color: #FFFFFF0D;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.dual_invite_sub_card h4{
+font-family: "Clash Display Variable", sans-serif;
+font-weight: 500;
+font-size: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}
+.dual_invite_sub_card p{
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+margin-bottom: 0px;
+}
+.dual_invite_sub_card a{
+  border: 1.14px solid #FFFFFF;
+  padding: 13px 22px;
+font-family: "Clash Display Variable";
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+border-radius: 9.1px;
+}
+.welcome_last_two_game{
+  border: 1px solid #FFFFFF59;
+  border-radius: 20px;
+  background: linear-gradient(
+    45deg, 
+    #FFFFFF1F, /* White with transparency */
+    #1CD47E33  /* Green with transparency */
+);
+margin-top: 40px;
+margin-left: 2px;
+margin-right: 2px;
+padding-bottom: 40px;
+margin-bottom: 100px;
+}
+.welcome_last_two_game #last_two_game{
+  background-color: transparent;
+}
+.tamamla_card{
+  padding: 30px 20px;
+  background-color: #0000000D;
+  border: 1px solid #FFFFFF4D;
+  border-radius: 15px;
+  margin-top: 45px;
+}
+.tamamla_card h3{
+font-family: "Clash Display Variable";
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.tamamla_card ul{
+  padding-left: 14px;
+  list-style-type: decimal;
+}
+.tamamla_card ul li{
+font-family: "Clash Display Variable";
+font-weight: 400;
+font-size: 14px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}

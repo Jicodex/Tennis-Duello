@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile - Tennis Duello</title>
+    <!-- ========== All Css Link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ========== Navbar Start Here  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="d-flex align-items-center">
+            <img src="assets/img/logo.svg" alt="logo" />
+          </div>
+        </a>
+
+        <!-- Custom Toggle Button -->
+        <div class="custom-select-wrapper d-none">
+          <div class="custom-select">
+            <div class="custom-select-trigger">
+              <img src="assets/img/icons/united-states.svg" alt="flag" />
+              <span>En</span>
+            </div>
+            <div class="custom-options">
+              <div class="custom-option" data-value="en">
+                <img src="assets/img/icons/united-states.svg" alt="flag" /> En
+              </div>
+              <div class="custom-option" data-value="bd">
+                <img src="assets/img/icons/bangladesh.svg" alt="flag" /> Bn
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="lang" id="lang" />
+        </div>
+
+        <button class="navbar-toggler custom-toggler" type="button">
+          <!-- Bar Icon -->
+          <span class="icon-bar svg-icon path-thick" id="toggleIcon">
+            <svg width="28" height="28" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M3 6h18M3 12h18M3 18h18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+        </button>
+
+        <button class="top_message" id="msgToggleBtn">
+          <img src="assets/img/icons/comments.svg" alt="icon" />
+          <div class="message_count">2</div>
+        </button>
+        <!-- Message Popup -->
+        <div class="message_popup" id="messagePopup">
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Daniel</h6>
+              <p>Thanks!</p>
+            </div>
+            <span>2:17 PM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Emma</h6>
+              <p>Let's play!</p>
+            </div>
+            <span class="online_dot"></span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Alex</h6>
+              <p>Tomorrow</p>
+            </div>
+            <span>Tomorrow</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Rachel</h6>
+              <p>Congratulations!</p>
+            </div>
+            <span>11:15 AM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Coach Miller</h6>
+              <p>Nice shot.</p>
+            </div>
+            <span>9:30 AM</span>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== Navbar End Here  -->
+
+    <!-- ========== Banner Section Start Here  -->
+    <section id="profile_banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="profile_page_title page_name text-center">
+              <h3>Profile</h3>
+            </div>
+            <div class="profile_image">
+              <img src="assets/img/profile.png" alt="img" />
+            </div>
+            <div class="profile_info text-center">
+              <h3>Destek Hatti</h3>
+              <h4>destak_h</h4>
+              <h5>Hand / Baseline / Power 89</h5>
+              <div class="d-flex justify-content-center gap-2">
+                <h2>4.50</h2>
+                <div class="d-flex star_rating">
+                  <img src="assets/img/icons/star.svg" alt="star" />
+                  <img src="assets/img/icons/star.svg" alt="star" />
+                  <img src="assets/img/icons/star.svg" alt="star" />
+                  <img src="assets/img/icons/star.svg" alt="star" />
+                  <img src="assets/img/icons/haft_star.svg" alt="star" />
+                </div>
+              </div>
+              <p>digital marketing instructor</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex gap-2 mt-4 justify-content-between">
+          <div class="profile_about_card">
+            <h3>About</h3>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/user_icons.svg" alt="user" />
+              <p>Name:</p>
+              <span>Trial</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/age.svg" alt="user" />
+              <p>Age:</p>
+              <span>22</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/city.svg" alt="user" />
+              <p>City:</p>
+              <span>22</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/mail.svg" alt="user" />
+              <p>Email:</p>
+              <span>22</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/phone.svg" alt="user" />
+              <p>Phone:</p>
+              <span>22</span>
+            </div>
+          </div>
+          <div class="profile_about_card">
+            <h3>Tennis Information</h3>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/rating.svg" alt="user" />
+              <p>Ranking:</p>
+              <span>44</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/scrol.svg" alt="user" />
+              <p>ELO Score:</p>
+              <span>22</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/playing.svg" alt="user" />
+              <p>Playing Level:</p>
+              <span>Beginner</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/experiens.svg" alt="user" />
+              <p>Tennis Experience:</p>
+              <span>22</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/game.svg" alt="user" />
+              <p>Total Matches:</p>
+              <span>22</span>
+            </div>
+            <div class="d-flex profile_about_card_list">
+              <img src="assets/img/icons/win.svg" alt="user" />
+              <p>Matches Won:</p>
+              <span>22</span>
+            </div>
+          </div>
+        </div>
+        <!-- ==== Profile 4 Button  -->
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="profile_button_area">
+              <button
+                style="background: linear-gradient(90deg, #098b30, #1cd47e)"
+              >
+                Lorem Ispum
+              </button>
+              <button
+                style="background: linear-gradient(90deg, #ffffff78, #ffffff78)"
+              >
+                Lorem Ispum
+              </button>
+              <button
+                style="background: linear-gradient(90deg, #ffffff78, #ffffff78)"
+              >
+                Lorem Ispum
+              </button>
+              <button style="background: #f2b31f">Lorem Ispum</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Banner Section Start Here  -->
+
+    <!-- ========== Chart Section Start Here  -->
+    <!-- Dashboard Charts Section -->
+    <div class="jx-dashboard-section">
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="jx-card jx-chart-box">
+              <div class="jx-chart-title">March</div>
+              <div class="jx-canvas-wrap"><canvas id="jxPie1"></canvas></div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="jx-card jx-chart-box">
+              <div class="jx-chart-title">March</div>
+              <div class="jx-canvas-wrap"><canvas id="jxDonut1"></canvas></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row g-3 mt-2">
+          <div class="col-6">
+            <div class="jx-card jx-chart-box">
+              <div class="jx-chart-title">March</div>
+              <div class="jx-canvas-wrap"><canvas id="jxPie2"></canvas></div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="jx-card jx-chart-box">
+              <div class="jx-chart-title">March</div>
+              <div class="jx-canvas-wrap"><canvas id="jxDonut2"></canvas></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Line Chart -->
+        <div class="jx-card mt-3">
+          <div class="jx-chart-title">Standing</div>
+          <div class="jx-canvas-wrap-line">
+            <canvas id="jxLineChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Area Chart -->
+        <div class="jx-card mt-3">
+          <div class="jx-chart-title">Performance Points</div>
+          <div class="jx-canvas-wrap-line">
+            <canvas id="jxAreaChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== Chart Section End Here  -->
+
+    <!-- ========== Tournaments Section Start Here  -->
+     <section id="profile_tournaments_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="profile_tournaments">
+                        <h3 class="section_title">Tournaments</h3>
+                    </div>
+                    <div class="profile_touranements_list">
+                        <div class="d-flex">
+                            <img src="assets/img/icons/green_cricle.svg" alt="icon">
+                            <div class="profile_tournament_list_content">
+                                <h2>Ankara 2025 all star</h2>
+                                <p>Sed ut perspiciatis unde omnis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile_touranements_list">
+                        <div class="d-flex">
+                            <img src="assets/img/icons/green_cricle.svg" alt="icon">
+                            <div class="profile_tournament_list_content">
+                                <h2>Ankara 2025 all star</h2>
+                                <p>Sed ut perspiciatis unde omnis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- ========== Tournaments Section End Here  -->
+
+    <!-- ========== Last Two Game Section Start Here  -->
+    <section id="last_two_game" class="mt-5 pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="section_title mt-0">Your recent Matches</h3>
+            <p class="section_bio">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="game-card">
+          <!-- Header -->
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+              <h5 class="mb-0">TOURNAMENT GAME</h5>
+              <small class="text-secondary">15/10/2025</small>
+            </div>
+            <button class="details-btn d-flex align-items-center">
+              <img class="me-2" src="assets/img/icons/search.svg" alt="icon" />
+              DETAILS
+            </button>
+          </div>
+
+          <!-- Table Head -->
+          <div
+            class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+          >
+            <span class="flex-grow-1"> </span>
+            <span style="width: 55px">Result</span>
+            <span style="width: 40px">Set1</span>
+            <span style="width: 40px">Set2</span>
+            <span style="width: 40px">Set3</span>
+          </div>
+
+          <!-- Player 1 -->
+          <div class="player-row d-flex align-items-center">
+            <img src="https://i.pravatar.cc/100?img=12" class="player-img" />
+            <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+            <span style="width: 55px" class="text-center">2</span>
+            <span style="width: 40px" class="text-center">6</span>
+            <span style="width: 40px" class="text-center">6</span>
+            <span style="width: 40px" class="text-center">10</span>
+          </div>
+
+          <!-- Player 2 -->
+          <div class="player-row d-flex align-items-center">
+            <img src="https://i.pravatar.cc/100?img=20" class="player-img" />
+            <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+            <span style="width: 55px" class="text-center">1</span>
+            <span style="width: 40px" class="text-center">2</span>
+            <span style="width: 40px" class="text-center">7</span>
+            <span style="width: 40px" class="text-center">12</span>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5 pt-2">
+        <div class="game-card">
+          <!-- Header -->
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+              <h5 class="mb-0">Friendly Game</h5>
+              <small class="text-secondary">15/10/2025</small>
+            </div>
+            <button class="details-btn d-flex align-items-center">
+              <img class="me-2" src="assets/img/icons/search.svg" alt="icon" />
+              DETAILS
+            </button>
+          </div>
+
+          <!-- Table Head -->
+          <div
+            class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+          >
+            <span class="flex-grow-1"> </span>
+            <span style="width: 55px">Result</span>
+            <span style="width: 40px">Set1</span>
+            <span style="width: 40px">Set2</span>
+            <span style="width: 40px">Set3</span>
+          </div>
+
+          <!-- Player 1 -->
+          <div class="player-row d-flex align-items-center">
+            <img src="https://i.pravatar.cc/100?img=12" class="player-img" />
+            <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+            <span style="width: 55px" class="text-center">2</span>
+            <span style="width: 40px" class="text-center">6</span>
+            <span style="width: 40px" class="text-center">6</span>
+            <span style="width: 40px" class="text-center">10</span>
+          </div>
+
+          <!-- Player 2 -->
+          <div class="player-row d-flex align-items-center">
+            <img src="https://i.pravatar.cc/100?img=20" class="player-img" />
+            <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+            <span style="width: 55px" class="text-center">1</span>
+            <span style="width: 40px" class="text-center">2</span>
+            <span style="width: 40px" class="text-center">7</span>
+            <span style="width: 40px" class="text-center">12</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Last Two Game Section End Here  -->
+
+    <!-- ========== Footer Section Start Here  -->
+    <footer id="footer_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/footer_logo.png" alt="logo" class="w-100" />
+          </div>
+          <div class="col-6">
+            <div class="footer_menu text-end">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copyright mt-4">
+          <div class="col-lg-12">
+            <div class="social_icon d-flex justify-content-center gap-1 mb-3">
+              <a href="#"
+                ><img src="assets/img/icons/InstagramLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/LinkedinLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/FacebookLogo.svg" alt="icon"
+              /></a>
+            </div>
+            <p>
+              Copyright © 2025 <a href="#">Tennisduello.com</a> . All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== Footer Section End Here  -->
+
+    <!-- ========== All JS Link  -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+      function jxPieConfig() {
+        return {
+          plugins: {
+            legend: { display: false },
+            tooltip: { displayColors: false },
+          },
+          cutout: "50%",
+          maintainAspectRatio: false,
+        };
+      }
+
+      // Pie Chart 1
+      new Chart(document.getElementById("jxPie1"), {
+        type: "doughnut",
+        data: {
+          labels: ["40%", "26%", "34%"],
+          datasets: [
+            {
+              data: [40, 26, 34],
+              backgroundColor: ["#098B30", "#1CD47E", "#FF3B5C"],
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: jxPieConfig(),
+      });
+
+      // Donut Chart 1
+      new Chart(document.getElementById("jxDonut1"), {
+        type: "doughnut",
+        data: {
+          labels: ["40%", "60%"],
+          datasets: [
+            {
+              data: [40, 60],
+              backgroundColor: ["#098B30", "#1CD47E"],
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: jxPieConfig(),
+      });
+
+      // Pie Chart 2
+      new Chart(document.getElementById("jxPie2"), {
+        type: "doughnut",
+        data: {
+          labels: ["44%", "29%", "27%"],
+          datasets: [
+            {
+              data: [44, 29, 27],
+              backgroundColor: ["#098B30", "#1CD47E", "#FF3B5C"],
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: jxPieConfig(),
+      });
+
+      // Donut Chart 2
+      new Chart(document.getElementById("jxDonut2"), {
+        type: "doughnut",
+        data: {
+          labels: ["72%", "28%"],
+          datasets: [
+            {
+              data: [72, 28],
+              backgroundColor: ["#098B30", "#FF3B5C"],
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: jxPieConfig(),
+      });
+
+      // Line Chart
+      new Chart(document.getElementById("jxLineChart"), {
+        type: "line",
+        data: {
+          labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN"],
+          datasets: [
+            {
+              data: [2, 4, 3, 6, 4, 5],
+              borderColor: "#1CD47E",
+              borderWidth: 2,
+              tension: 0.4,
+              pointRadius: 4,
+              pointBackgroundColor: "#FFD54F",
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          scales: {
+            x: { ticks: { color: "#888" } },
+            y: { ticks: { color: "#888" } },
+          },
+          plugins: { legend: { display: false } },
+          maintainAspectRatio: false,
+        },
+      });
+
+      // Area Chart
+      const ctx = document.getElementById("jxAreaChart").getContext("2d");
+      const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+      gradient.addColorStop(0, "rgba(28,212,126,0.6)");
+      gradient.addColorStop(1, "rgba(28,212,126,0.1)");
+
+      new Chart(ctx, {
+        type: "line",
+        data: {
+          labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN"],
+          datasets: [
+            {
+              data: [2, 3, 6, 4, 7, 9],
+              borderColor: "#1CD47E",
+              backgroundColor: gradient,
+              borderWidth: 2,
+              tension: 0.4,
+              fill: true,
+            },
+          ],
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          maintainAspectRatio: false,
+        },
+      });
+    </script>
+  </body>
+</html>
