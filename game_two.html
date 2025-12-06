@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Two - Tennis Duello</title>
+    <!-- ========== All Css Link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ========== Navbar Start Here  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="d-flex align-items-center">
+            <img src="assets/img/logo.svg" alt="logo" />
+          </div>
+        </a>
+
+        <!-- Custom Toggle Button -->
+        <div class="custom-select-wrapper d-none">
+          <div class="custom-select">
+            <div class="custom-select-trigger">
+              <img src="assets/img/icons/united-states.svg" alt="flag" />
+              <span>En</span>
+            </div>
+            <div class="custom-options">
+              <div class="custom-option" data-value="en">
+                <img src="assets/img/icons/united-states.svg" alt="flag" /> En
+              </div>
+              <div class="custom-option" data-value="bd">
+                <img src="assets/img/icons/bangladesh.svg" alt="flag" /> Bn
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="lang" id="lang" />
+        </div>
+
+        <button class="navbar-toggler custom-toggler" type="button">
+          <!-- Bar Icon -->
+          <span class="icon-bar svg-icon path-thick" id="toggleIcon">
+            <svg width="28" height="28" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M3 6h18M3 12h18M3 18h18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+        </button>
+
+        <button class="top_message" id="msgToggleBtn">
+          <img src="assets/img/icons/comments.svg" alt="icon" />
+          <div class="message_count">2</div>
+        </button>
+        <!-- Message Popup -->
+        <div class="message_popup" id="messagePopup">
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Daniel</h6>
+              <p>Thanks!</p>
+            </div>
+            <span>2:17 PM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Emma</h6>
+              <p>Let's play!</p>
+            </div>
+            <span class="online_dot"></span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Alex</h6>
+              <p>Tomorrow</p>
+            </div>
+            <span>Tomorrow</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Rachel</h6>
+              <p>Congratulations!</p>
+            </div>
+            <span>11:15 AM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Coach Miller</h6>
+              <p>Nice shot.</p>
+            </div>
+            <span>9:30 AM</span>
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== Navbar End Here  -->
+
+    <!-- ========== Banner Section Start Here  -->
+    <section id="game_two_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="game_two_banner">
+              <h3>Ankara 2025 All Star</h3>
+              <p>
+                Join Our Upcoming Premier event for a chance at glory. prepare
+                to compete against the best for the ultimate chumship
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Banner Section Start Here  -->
+    <section id="game_two_main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="game_two_content">
+              <a href="#">Apply to tournament</a>
+              <p>To be started in 3 days 06 hours 24 minutes 33 seconds</p>
+              <div class="d-flex justify-content-between schedule_button">
+                <a href="#">Schedule</a>
+                <a href="#">Schedule</a>
+                <a href="#">Schedule</a>
+              </div>
+            </div>
+            <div class="leaderboard-wrapper">
+              <div class="table-responsive leaderboard-table">
+                <table class="table mb-0 align-middle text-center">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Actor</th>
+                      <th>Match</th>
+                      <th>Point</th>
+                      <th>SA</th>
+                      <th>O.A.</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td>Emir Demirtas</td>
+                      <td>06</td>
+                      <td>15</td>
+                      <td>08</td>
+                      <td>24</td>
+                    </tr>
+                    <tr>
+                      <td>02</td>
+                      <td>Birkan Canakcioglu</td>
+                      <td>06</td>
+                      <td>14</td>
+                      <td>02</td>
+                      <td>07</td>
+                    </tr>
+                    <tr>
+                      <td>03</td>
+                      <td>Sinan8635</td>
+                      <td>06</td>
+                      <td>11</td>
+                      <td>05</td>
+                      <td>09</td>
+                    </tr>
+                    <tr>
+                      <td>04</td>
+                      <td>Dasein</td>
+                      <td>05</td>
+                      <td>11</td>
+                      <td>00</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>05</td>
+                      <td>Gurkan77</td>
+                      <td>06</td>
+                      <td>09</td>
+                      <td>02</td>
+                      <td>06</td>
+                    </tr>
+                    <tr>
+                      <td>06</td>
+                      <td>Nedim Akn</td>
+                      <td>06</td>
+                      <td>09</td>
+                      <td>-02</td>
+                      <td>-06</td>
+                    </tr>
+                    <tr>
+                      <td>07</td>
+                      <td>Efecan Gulec</td>
+                      <td>06</td>
+                      <td>09</td>
+                      <td>-06</td>
+                      <td>-21</td>
+                    </tr>
+                    <tr>
+                      <td>08</td>
+                      <td>Serdal Cevheribucak</td>
+                      <td>06</td>
+                      <td>08</td>
+                      <td>-01</td>
+                      <td>03</td>
+                    </tr>
+                    <tr>
+                      <td>09</td>
+                      <td>Yguyusal</td>
+                      <td>06</td>
+                      <td>07</td>
+                      <td>02</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Liza Bilen</td>
+                      <td>06</td>
+                      <td>07</td>
+                      <td>-01</td>
+                      <td>01</td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>Borakyrgios</td>
+                      <td>06</td>
+                      <td>06</td>
+                      <td>-02</td>
+                      <td>-05</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>Nima Akasteh</td>
+                      <td>06</td>
+                      <td>06</td>
+                      <td>-06</td>
+                      <td>-14</td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>Furkan Onol</td>
+                      <td>06</td>
+                      <td>03</td>
+                      <td>00</td>
+                      <td>00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="gamr_two_table_bottom">
+              <p>SA: Set Average</p>
+              <p>OA: Game Average (excluding super tie-break)</p>
+              <div class="weekly_match">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex justify-content-between gap-2">
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                  </div>
+                  <a href="#"
+                    >play off
+                    <img src="assets/img/icons/arrow_top_right.svg" alt="icon"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="bracket-wrapper">
+              <div class="bracket-scroll">
+                <!-- Column 1 – 4 cards -->
+                <div class="bracket-col col-1">
+                  <div class="match-card">
+                    <!-- Card 1 -->
+                    <div class="game-card">
+                      <!-- Header -->
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-4"
+                      >
+                        <div>
+                          <h5 class="mb-0">TOURNAMENT GAME</h5>
+                        </div>
+                        <button
+                          class="details-btn d-flex align-items-center py-2 px-4"
+                        >
+                          DETAILS
+                        </button>
+                      </div>
+
+                      <!-- Table Head -->
+                      <div
+                        class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                      >
+                        <span class="flex-grow-1"> </span>
+                        <span style="width: 55px">Result</span>
+                        <span style="width: 40px">Set1</span>
+                      </div>
+
+                      <!-- Player 1 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=12"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">2</span>
+                        <span style="width: 40px" class="text-center">6</span>
+                      </div>
+
+                      <!-- Player 2 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=20"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">1</span>
+                        <span style="width: 40px" class="text-center">2</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="match-card mt-4">
+                    <!-- Card 2 -->
+                    <div class="game-card">
+                      <!-- Header -->
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-4"
+                      >
+                        <div>
+                          <h5 class="mb-0">TOURNAMENT GAME</h5>
+                        </div>
+                        <button
+                          class="details-btn d-flex align-items-center py-2 px-4"
+                        >
+                          DETAILS
+                        </button>
+                      </div>
+
+                      <!-- Table Head -->
+                      <div
+                        class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                      >
+                        <span class="flex-grow-1"> </span>
+                        <span style="width: 55px">Result</span>
+                        <span style="width: 40px">Set1</span>
+                      </div>
+
+                      <!-- Player 1 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=12"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">2</span>
+                        <span style="width: 40px" class="text-center">6</span>
+                      </div>
+
+                      <!-- Player 2 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=20"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">1</span>
+                        <span style="width: 40px" class="text-center">2</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="match-card">
+                    <!-- Card 3 -->
+                    <div class="game-card">
+                      <!-- Header -->
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-4"
+                      >
+                        <div>
+                          <h5 class="mb-0">TOURNAMENT GAME</h5>
+                        </div>
+                        <button
+                          class="details-btn d-flex align-items-center py-2 px-4"
+                        >
+                          DETAILS
+                        </button>
+                      </div>
+
+                      <!-- Table Head -->
+                      <div
+                        class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                      >
+                        <span class="flex-grow-1"> </span>
+                        <span style="width: 55px">Result</span>
+                        <span style="width: 40px">Set1</span>
+                      </div>
+
+                      <!-- Player 1 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=12"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">2</span>
+                        <span style="width: 40px" class="text-center">6</span>
+                      </div>
+
+                      <!-- Player 2 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=20"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">1</span>
+                        <span style="width: 40px" class="text-center">2</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="match-card mt-4">
+                    <!-- Card 4 -->
+                    <div class="game-card">
+                      <!-- Header -->
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-4"
+                      >
+                        <div>
+                          <h5 class="mb-0">TOURNAMENT GAME</h5>
+                        </div>
+                        <button
+                          class="details-btn d-flex align-items-center py-2 px-4"
+                        >
+                          DETAILS
+                        </button>
+                      </div>
+
+                      <!-- Table Head -->
+                      <div
+                        class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                      >
+                        <span class="flex-grow-1"> </span>
+                        <span style="width: 55px">Result</span>
+                        <span style="width: 40px">Set1</span>
+                      </div>
+
+                      <!-- Player 1 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=12"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">2</span>
+                        <span style="width: 40px" class="text-center">6</span>
+                      </div>
+
+                      <!-- Player 2 -->
+                      <div class="player-row d-flex align-items-center">
+                        <img
+                          src="https://i.pravatar.cc/100?img=20"
+                          class="player-img"
+                        />
+                        <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                        <span style="width: 55px" class="text-center">1</span>
+                        <span style="width: 40px" class="text-center">2</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Arrow Col 1 → Col 2 (TOP + BOTTOM) -->
+                <div class="arrow-group arrow-col1">
+                  <div class="arrow-line arrow-top">
+                    <img src="assets/img/next_line.png" alt="img" />
+                  </div>
+                  <div class="arrow-line arrow-bottom">
+                    <img src="assets/img/next_line.png" alt="img" />
+                  </div>
+                </div>
+
+                <!-- Column 2 – 2 cards -->
+                <div class="bracket-col col-2">
+                  <div class="middle-box">
+                    <div class="match-card">
+                      <!-- Card 5 -->
+                      <div class="game-card">
+                        <!-- Header -->
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-4"
+                        >
+                          <div>
+                            <h5 class="mb-0">TOURNAMENT GAME</h5>
+                          </div>
+                          <button
+                            class="details-btn d-flex align-items-center py-2 px-4"
+                          >
+                            DETAILS
+                          </button>
+                        </div>
+
+                        <!-- Table Head -->
+                        <div
+                          class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                        >
+                          <span class="flex-grow-1"> </span>
+                          <span style="width: 55px">Result</span>
+                          <span style="width: 40px">Set1</span>
+                        </div>
+
+                        <!-- Player 1 -->
+                        <div class="player-row d-flex align-items-center">
+                          <img
+                            src="https://i.pravatar.cc/100?img=12"
+                            class="player-img"
+                          />
+                          <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                          <span style="width: 55px" class="text-center">2</span>
+                          <span style="width: 40px" class="text-center">6</span>
+                        </div>
+
+                        <!-- Player 2 -->
+                        <div class="player-row d-flex align-items-center">
+                          <img
+                            src="https://i.pravatar.cc/100?img=20"
+                            class="player-img"
+                          />
+                          <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                          <span style="width: 55px" class="text-center">1</span>
+                          <span style="width: 40px" class="text-center">2</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="match-card">
+                      <!-- Card 6 -->
+                      <div class="game-card">
+                        <!-- Header -->
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-4"
+                        >
+                          <div>
+                            <h5 class="mb-0">TOURNAMENT GAME</h5>
+                          </div>
+                          <button
+                            class="details-btn d-flex align-items-center py-2 px-4"
+                          >
+                            DETAILS
+                          </button>
+                        </div>
+
+                        <!-- Table Head -->
+                        <div
+                          class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                        >
+                          <span class="flex-grow-1"> </span>
+                          <span style="width: 55px">Result</span>
+                          <span style="width: 40px">Set1</span>
+                        </div>
+
+                        <!-- Player 1 -->
+                        <div class="player-row d-flex align-items-center">
+                          <img
+                            src="https://i.pravatar.cc/100?img=12"
+                            class="player-img"
+                          />
+                          <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                          <span style="width: 55px" class="text-center">2</span>
+                          <span style="width: 40px" class="text-center">6</span>
+                        </div>
+
+                        <!-- Player 2 -->
+                        <div class="player-row d-flex align-items-center">
+                          <img
+                            src="https://i.pravatar.cc/100?img=20"
+                            class="player-img"
+                          />
+                          <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                          <span style="width: 55px" class="text-center">1</span>
+                          <span style="width: 40px" class="text-center">2</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Arrow Col 2 → Col 3 (Only 1 Middle Line) -->
+                <div class="arrow-group-single arrow-col2">
+                  <div class="arrow-line">
+                    <img class="line_top" src="assets/img/start_line_top.svg" alt="icon">
+                    <img class="line_bottom" src="assets/img/end_line_bottom.svg" alt="icon">
+                  </div>
+                </div>
+
+                <!-- Column 3 – 1 Final Card -->
+                <div class="bracket-col col-3">
+                  <div class="final-box">
+                    <div class="match-card">
+                        <!-- Card 7 -->
+                         <div class="game-card">
+                        <!-- Header -->
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-4"
+                        >
+                          <div>
+                            <h5 class="mb-0">TOURNAMENT GAME</h5>
+                          </div>
+                          <button
+                            class="details-btn d-flex align-items-center py-2 px-4"
+                          >
+                            DETAILS
+                          </button>
+                        </div>
+
+                        <!-- Table Head -->
+                        <div
+                          class="d-flex justify-content-between px-2 mb-2 text-secondary game_table_header"
+                        >
+                          <span class="flex-grow-1"> </span>
+                          <span style="width: 55px">Result</span>
+                          <span style="width: 40px">Set1</span>
+                        </div>
+
+                        <!-- Player 1 -->
+                        <div class="player-row d-flex align-items-center">
+                          <img
+                            src="https://i.pravatar.cc/100?img=12"
+                            class="player-img"
+                          />
+                          <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                          <span style="width: 55px" class="text-center">2</span>
+                          <span style="width: 40px" class="text-center">6</span>
+                        </div>
+
+                        <!-- Player 2 -->
+                        <div class="player-row d-flex align-items-center">
+                          <img
+                            src="https://i.pravatar.cc/100?img=20"
+                            class="player-img"
+                          />
+                          <span class="flex-grow-1 name">LOREM IPSUM</span>
+
+                          <span style="width: 55px" class="text-center">1</span>
+                          <span style="width: 40px" class="text-center">2</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Footer Section Start Here  -->
+    <footer id="footer_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/footer_logo.png" alt="logo" class="w-100" />
+          </div>
+          <div class="col-6">
+            <div class="footer_menu text-end">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copyright mt-4">
+          <div class="col-lg-12">
+            <div class="social_icon d-flex justify-content-center gap-1 mb-3">
+              <a href="#"
+                ><img src="assets/img/icons/InstagramLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/LinkedinLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/FacebookLogo.svg" alt="icon"
+              /></a>
+            </div>
+            <p>
+              Copyright © 2025 <a href="#">Tennisduello.com</a> . All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== Footer Section End Here  -->
+
+    <!-- ========== All JS Link  -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+      // Like Button
+      document.addEventListener("click", function (e) {
+        const likeBtn = e.target.closest(".btn-like");
+        if (likeBtn) {
+          likeBtn.classList.toggle("active");
+
+          const card = likeBtn.closest(".comment-card");
+          const counter = card.querySelector(".like-counter");
+
+          let current = parseInt(counter.textContent) || 0;
+
+          if (likeBtn.classList.contains("active")) {
+            current += 1;
+          } else {
+            current -= 1;
+          }
+
+          counter.textContent = current + " likes";
+        }
+      });
+
+      // Share
+      document.addEventListener("click", function (e) {
+        const shareBtn = e.target.closest(".btn-share");
+        if (shareBtn) {
+          const card = shareBtn.closest(".comment-card");
+          const text = card.querySelector(".comment-text").innerText;
+
+          if (navigator.share) {
+            navigator.share({ text });
+          } else {
+            navigator.clipboard.writeText(text);
+            alert("Copied to clipboard!");
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
