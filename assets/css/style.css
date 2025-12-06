@@ -1973,3 +1973,24 @@ font-family: "Clash Display Variable";
 	top: 490px;
 	left: 5px;
 }
+.game_two_last_con p{
+  font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 13.37px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #ffffff;
+}
+.game_two_last_con .last_img{
+padding: 13px 15px;
+background-color: #FFFFFF0D;
+border-radius: 17px;
+border: 1.11px solid #FFFFFF4D;
+margin-bottom: 22px;
+}
+.game_two_last_con .last_img img{
+  width: 100%;
+border-radius: 17px;
+}
