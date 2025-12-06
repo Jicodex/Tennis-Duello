@@ -672,7 +672,7 @@ a.more_letest {
   padding-bottom: 50px;
 }
 .game-card {
-  background: #212C34;
+  background: #212c34;
   border-radius: 15px;
   padding: 15px 10px 1px 10px;
   color: #fff;
@@ -681,7 +681,7 @@ a.more_letest {
   background: #10b65c;
   border-radius: 15px;
   padding: 7px 41px 7px 9px;
-  color: #26333C;
+  color: #26333c;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -691,7 +691,7 @@ a.more_letest {
   border: none;
 }
 .player-row {
-  background: #FFFFFF40;
+  background: #ffffff40;
   border-radius: 15px;
   padding: 12px;
   margin-bottom: 10px;
@@ -730,75 +730,75 @@ a.more_letest {
   letter-spacing: 0px;
   color: #fcfcfd99;
 }
-.game_table_header span{
+.game_table_header span {
   font-family: Roboto;
-font-weight: 400;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.player-row span.name{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
+.player-row span.name {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.player-row span{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
+.player-row span {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 /* ========== Last Two Game Section Css End Here  */
 
 /* ========== Footer Section Css Start Here  */
-#footer_area{
+#footer_area {
   padding: 37px 0px 28px 0px;
   background-color: #006920;
 }
-.footer_menu ul{
+.footer_menu ul {
   padding-left: 0px;
   list-style-type: none;
 }
-.footer_menu ul li a{
-font-family: Roboto;
-font-weight: 400;
-font-size: 14.4px;
-line-height: 130%;
-letter-spacing: 0px;
-text-align: right;
-text-transform: capitalize;
-text-decoration: none;
-color: #ffffff;
+.footer_menu ul li a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14.4px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  text-align: right;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
 }
-.copyright p{
-font-family: Roboto;
-font-weight: 400;
-font-size: 9.22px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-color: #ffffff;
-margin-bottom: 0px;
+.copyright p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 9.22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;
 }
-.copyright p a{
-font-family: Roboto;
-font-weight: 400;
-font-size: 9.22px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-color: #ffffff;
-margin-bottom: 0px;
-text-decoration: none;
+.copyright p a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 9.22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0px;
+  text-decoration: none;
 }
 /* ========== Footer Section Css End Here  */
 /*  
@@ -806,16 +806,16 @@ text-decoration: none;
 =============== Profile Page Style Here 
 ========================================
   */
-  body{
-    background-color: #050505;
-  }
-.top_message{
+body {
+  background-color: #050505;
+}
+.top_message {
   border: none;
   background-color: transparent;
   position: relative;
-    cursor: pointer;
+  cursor: pointer;
 }
-.message_count{
+.message_count {
   position: absolute;
   top: 0;
   right: 0;
@@ -826,536 +826,530 @@ text-decoration: none;
   color: #006920;
   border-radius: 100px;
 }
-.top_message img{
+.top_message img {
   width: 30px;
   height: 30px;
 }
 
-
 /* Popup box */
 .message_popup {
-    position: absolute;
-    top: 60px;
-    right: 10px;
-    width: 300px;
-    background: #fff;
-    border-radius: 16px;
-    padding: 10px 0;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    display: none;
-    z-index: 999;
+  width: 100%;
+  background: #ffffff21;
+  border-radius: 16px;
+  padding: 10px 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .msg_item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 15px;
-    border-bottom: 1px solid #eee;
-    cursor: pointer;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #eeeeee73;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .msg_item:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .msg_item img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
 }
 
 .msg_item h6 {
-font-family: "Bebas Neue", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: start;
-vertical-align: middle;
-text-transform: capitalize;
-color: #050504;
-margin-left: 0;
-margin-bottom: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: start;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 .msg_item p {
-    margin: 0;
-    font-size: 13px;
-    color: #666;
+  margin: 0;
+  font-size: 13px;
+  color: #ffffff;
 }
 
 .msg_item span {
-    margin-left: auto;
-    font-size: 12px;
-    color: #777;
+  margin-left: auto;
+  font-size: 12px;
+  color: #777;
 }
 
 /* Online green dot */
 .online_dot {
-    width: 10px;
-    height: 10px;
-    background: #22c55e;
-    border-radius: 50%;
-    margin-left: auto;
+  width: 10px;
+  height: 10px;
+  background: #22c55e;
+  border-radius: 50%;
+  margin-left: auto;
 }
-.page_name h3{
-font-family: "Clash Display Variable";
-font-weight: 500;
-font-size: 34px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #FFFFFF;
+.page_name h3 {
+  font-family: "Clash Display Variable";
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.profile_page_title{
+.profile_page_title {
   margin-top: 52px;
   margin-bottom: 60px;
 }
-.profile_image{
+.profile_image {
   text-align: center;
 }
-.profile_image img{
-width: 93px;
-height: 93px;
-object-fit: cover;
-border: 3.47px solid #FFFFFF;
-border-radius: 100px;
+.profile_image img {
+  width: 93px;
+  height: 93px;
+  object-fit: cover;
+  border: 3.47px solid #ffffff;
+  border-radius: 100px;
 }
-.profile_info h3{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 500;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-top: 17px;
-margin-bottom: 15px;
+.profile_info h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 17px;
+  margin-bottom: 15px;
 }
-.profile_info h4{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 20.83px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+.profile_info h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20.83px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.profile_info h5{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-top: 15px;
+.profile_info h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 15px;
 }
-.profile_info h2{
-font-family: "Open Sans", sans-serif;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #ffffff;
-margin-top: 15px;
+.profile_info h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 15px;
 }
-.star_rating img{
+.star_rating img {
   width: 23px;
 }
-.profile_info p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #ffffff;
-margin-top: 10px;
-margin-bottom: 0px;
+.profile_info p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
-.profile_about_card{
-  background-color: #FFFFFF14;
+.profile_about_card {
+  background-color: #ffffff14;
   border-radius: 11.05px;
-  border: 0.55px solid #FFFFFF26;
+  border: 0.55px solid #ffffff26;
   padding: 20px 15px;
   height: 280px;
   width: 50%;
   margin-bottom: 40px;
 }
-.profile_about_card h3{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 500;
-font-size: 17px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
-border-bottom: 0.55px solid #FFFFFF26;
-margin-bottom: 9px;
-padding-bottom: 9px;
+.profile_about_card h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  border-bottom: 0.55px solid #ffffff26;
+  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
-.profile_about_card_list img{
+.profile_about_card_list img {
   width: 16px;
   height: 16px;
 }
-.profile_about_card_list p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
-margin-left: 6.5px;
+.profile_about_card_list p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 6.5px;
 }
-.profile_about_card_list span{
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
-margin-left: 6.5px;
+.profile_about_card_list span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 6.5px;
 }
-.profile_button_area button{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 600;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #ffffff;
-display: block;
-width: 100%;
-padding: 13.5px 0;
-border: none;
-border-radius: 10px;
-margin-bottom: 15px;
+.profile_button_area button {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  padding: 13.5px 0;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .jx-dashboard-section {
-    padding: 20px 0;
-    background: #121212;
+  padding: 20px 0;
+  background: #121212;
 }
 
 /* Card style */
 .jx-card {
-    background: #1D1D1D;
-    padding: 12px;
-    border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  background: #1d1d1d;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
 }
 
 .jx-chart-title {
-    font-size: 14px;
-    color: #fff;
-    margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 /* Perfect circle charts */
 .jx-canvas-wrap {
-    width: 100%;
-    aspect-ratio: 1/1;
-    position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
 }
 
 .jx-canvas-wrap canvas {
-    width: 100% !important;
-    height: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /* Line + Area chart wraps */
 .jx-canvas-wrap-line {
-    width: 100%;
-    height: 180px;
-    position: relative;
+  width: 100%;
+  height: 180px;
+  position: relative;
 }
 
 .jx-canvas-wrap-line canvas {
-    width: 100% !important;
-    height: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
 }
-.profile_touranements_list{
+.profile_touranements_list {
   padding: 20px;
-  background-color: #26333C;
+  background-color: #26333c;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.profile_touranements_list img{
+.profile_touranements_list img {
   width: 52px;
   height: 52px;
 }
-.profile_tournament_list_content h2{
-font-family: "Open Sans", sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-left: 15px;
+.profile_tournament_list_content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 15px;
 }
-.profile_tournament_list_content p{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 500;
-font-size: 12px;
-line-height: 21px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-left: 15px;
-margin-bottom: 0px;
+.profile_tournament_list_content p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-bottom: 0px;
 }
 
-.profile_card{
-  background-color: #FFFFFF0D;
-  border: 1px solid #FFFFFF4D;
+.profile_card {
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff4d;
   border-radius: 15px;
   padding: 14px 20px;
 }
-.profile_card img{
-  border: 3.47px solid #FFFFFF;
+.profile_card img {
+  border: 3.47px solid #ffffff;
   border-radius: 100px;
   width: 92px;
   height: 92px;
   object-fit: cover;
 }
-.profile_card_content{
+.profile_card_content {
   margin-left: 15px;
 }
-.profile_card_content h3{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 500;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #FFFFFF;
+.profile_card_content h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.profile_card_content h2{
-font-family: "Open Sans", sans-serif;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #FFFFFF;
+.profile_card_content h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.profile_card_content p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-style: Medium;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-margin-bottom: 5px;
-color: #FFFFFF;
+.profile_card_content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  color: #ffffff;
 }
-.profile_card_content img{
-width: 22px;
-height: 22px;
-border: none;
-border-radius: 0px;
+.profile_card_content img {
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 0px;
 }
-.your_register_card{
-  background-color: #FFFFFF0D;
-  border: 1px solid #FFFFFF4D;
+.your_register_card {
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff4d;
   border-radius: 15px;
   padding: 40px 20px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.your_register_card h3{
-font-family: "Clash Display Variable", sans-serif;
-font-weight: 500;
-font-size: 26px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-padding-bottom: 40px;
-border-bottom: 1px solid #FFFFFF4D;
-margin-bottom: 40px;
+.your_register_card h3 {
+  font-family: "Clash Display Variable", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ffffff4d;
+  margin-bottom: 40px;
 }
-.your_register_card img{
+.your_register_card img {
   width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 17.07px;
   margin-bottom: 34px;
 }
-.your_register_card h2{
-font-family: "Clash Display Variable", sans-serif;
-font-weight: 500;
-font-style: Medium;
-font-size: 22px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+.your_register_card h2 {
+  font-family: "Clash Display Variable", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.your_register_card span{
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-bottom: 10px;
+.your_register_card span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
-.your_register_card p{
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-bottom: 25px;
+.your_register_card p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 25px;
 }
-.your_register_card a{
-font-family: "Clash Display Variable", sans-serif;
-font-weight: 600;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-border: 1.14px solid #FFFFFF;
-color: #ffffff;
-padding: 13.5px 22px;
-border-radius: 9.1px;
-text-decoration: none;
+.your_register_card a {
+  font-family: "Clash Display Variable", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  border: 1.14px solid #ffffff;
+  color: #ffffff;
+  padding: 13.5px 22px;
+  border-radius: 9.1px;
+  text-decoration: none;
 }
-.dual_invite_card{
-  background-color: #FFFFFF0D;
-  border: 1px solid #FFFFFF4D;
+.dual_invite_card {
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff4d;
   border-radius: 15px;
   padding: 30px 20px;
 }
-.dual_invite_card h3{
-font-family: "Clash Display Variable", sans-serif;
-font-weight: 500;
-font-size: 26px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+.dual_invite_card h3 {
+  font-family: "Clash Display Variable", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.dual_invite_sub_card{
+.dual_invite_sub_card {
   padding: 30px 25px;
-  border: 1px solid #FFFFFF4D;
-  background-color: #FFFFFF0D;
+  border: 1px solid #ffffff4d;
+  background-color: #ffffff0d;
   margin-top: 30px;
   border-radius: 15px;
 }
-.dual_invite_sub_card h4{
-font-family: "Clash Display Variable", sans-serif;
-font-weight: 500;
-font-size: 22px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+.dual_invite_sub_card h4 {
+  font-family: "Clash Display Variable", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.dual_invite_sub_card p{
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-bottom: 0px;
+.dual_invite_sub_card p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 0px;
 }
-.dual_invite_sub_card a{
-  border: 1.14px solid #FFFFFF;
+.dual_invite_sub_card a {
+  border: 1.14px solid #ffffff;
   padding: 13px 22px;
-font-family: "Clash Display Variable";
-font-weight: 600;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-text-decoration: none;
-border-radius: 9.1px;
+  font-family: "Clash Display Variable";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 9.1px;
 }
-.welcome_last_two_game{
-  border: 1px solid #FFFFFF59;
+.welcome_last_two_game {
+  border: 1px solid #ffffff59;
   border-radius: 20px;
   background: linear-gradient(
-    45deg, 
-    #FFFFFF1F, /* White with transparency */
-    #1CD47E33  /* Green with transparency */
-);
-margin-top: 40px;
-margin-left: 2px;
-margin-right: 2px;
-padding-bottom: 40px;
-margin-bottom: 100px;
+    45deg,
+    #ffffff1f,
+    /* White with transparency */ #1cd47e33 /* Green with transparency */
+  );
+  margin-top: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
 }
-.welcome_last_two_game #last_two_game{
+.welcome_last_two_game #last_two_game {
   background-color: transparent;
 }
-.tamamla_card{
+.tamamla_card {
   padding: 30px 20px;
-  background-color: #0000000D;
-  border: 1px solid #FFFFFF4D;
+  background-color: #0000000d;
+  border: 1px solid #ffffff4d;
   border-radius: 15px;
   margin-top: 45px;
 }
-.tamamla_card h3{
-font-family: "Clash Display Variable";
-font-weight: 600;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #FFFFFF;
+.tamamla_card h3 {
+  font-family: "Clash Display Variable";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.tamamla_card ul{
+.tamamla_card ul {
   padding-left: 14px;
   list-style-type: decimal;
 }
-.tamamla_card ul li{
-font-family: "Clash Display Variable";
-font-weight: 400;
-font-size: 14px;
-line-height: 48px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+.tamamla_card ul li {
+  font-family: "Clash Display Variable";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 /* Form wrapper center */
 .unique-form-wrapper {
@@ -1366,7 +1360,7 @@ color: #ffffff;
 /* Styled select */
 .unique-select {
   padding: 10px 60px 10px 15px;
-font-family: "Clash Display Variable";
+  font-family: "Clash Display Variable";
   font-size: 16px;
   border-radius: 8px;
   background-color: #fff;
@@ -1394,614 +1388,979 @@ font-family: "Clash Display Variable";
   border-color: #007bff00;
   box-shadow: 0 0 0px rgba(0, 123, 255, 0.5);
 }
-.tournament_card_box{
-  border: 1px solid #FFFFFF4D;
+.tournament_card_box {
+  border: 1px solid #ffffff4d;
   border-radius: 15px;
-  background-color: #FFFFFF0D;
+  background-color: #ffffff0d;
   padding: 10px;
   margin-bottom: 30px;
 }
-.tournament_card_box img.cover{
+.tournament_card_box img.cover {
   width: 115px;
   height: 125px;
   border-radius: 17.07px;
   margin-right: 20px;
 }
-.tournament_card_content{
+.tournament_card_content {
   align-self: center;
 }
-.tournament_card_content h3{
-font-family: Clash Display Variable;
-font-weight: 500;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: start;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+.tournament_card_content h3 {
+  font-family: Clash Display Variable;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: start;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.tournament_card_content img{
+.tournament_card_content img {
   height: 17px;
   max-width: 20px;
   margin-right: 10px;
 }
-.tournament_card_content p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #FFFFFF99;
+.tournament_card_content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff99;
 }
-.tournament_card_status{
+.tournament_card_status {
   align-self: center;
   margin-left: 10px;
 }
-.touenament_last_doller{
+.touenament_last_doller {
   align-self: end;
   margin-left: 10px;
   text-align: end;
 }
-.tournament_card_status p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 10px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-bottom: 10px;
+.tournament_card_status p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
-.touenament_last_doller p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 10px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-border: 1px solid #FFFFFF4D;
-padding: 6px 20px;
-border-radius: 15px;
-}
-.tournament_card_status .finish_status{
-  height: 10px;
-  width: 40px;
-  background-color: #098B30;
+.touenament_last_doller p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  border: 1px solid #ffffff4d;
+  padding: 6px 20px;
   border-radius: 15px;
 }
-.tournament_list_card h4{
-font-family: Clash Display Variable;
-font-weight: 500;
-font-size: 26px;
-line-height: 100%;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-bottom: 25px;
+.tournament_card_status .finish_status {
+  height: 10px;
+  width: 40px;
+  background-color: #098b30;
+  border-radius: 15px;
 }
-.game_vs_area_card{
-  background-color: #FFFFFF14;
-  border: 0.55px solid #FFFFFF26;
+.tournament_list_card h4 {
+  font-family: Clash Display Variable;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.game_vs_area_card {
+  background-color: #ffffff14;
+  border: 0.55px solid #ffffff26;
   border-radius: 11.05px;
   padding: 11px 5px;
 }
 .player_card_game {
-	border: 0.55px solid #FFFFFF26;
-	border-radius: 11.05px;
-	padding: 20px 20px;
+  border: 0.55px solid #ffffff26;
+  border-radius: 11.05px;
+  padding: 20px 20px;
 }
-.player_card_game img.cover{
-border: 3.47px solid #FFFFFF;
-border-radius: 100px;
-width: 90px;
-height: 90px;
+.player_card_game img.cover {
+  border: 3.47px solid #ffffff;
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
 }
-.player_card_game h3{
-font-family: Clash Display Variable;
-font-weight: 500;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #FFFFFF;
+.player_card_game h3 {
+  font-family: Clash Display Variable;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.player_card_game h4{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #FFFFFF;
+.player_card_game h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.player_card_game p{
-font-family: "Open Sans", sans-serif;
-font-weight: 500;
-font-size: 12px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #FFFFFF;
+.player_card_game p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.player_card_game img{
+.player_card_game img {
   width: 16px;
 }
-.game_vs_card{
+.game_vs_card {
   position: relative;
 }
-.versus_img{
+.versus_img {
   position: absolute;
   left: 50%;
   top: 35%;
   transform: translate(-50%, -50%);
   width: 80px;
 }
-.game_vs_area_card .game-card{
-  background-color: #FFFFFF0D;
-  border: 1px solid #FFFFFF4D;
+.game_vs_area_card .game-card {
+  background-color: #ffffff0d;
+  border: 1px solid #ffffff4d;
   margin-top: 30px;
 }
 .game_vs_area_card .player-row {
-	background-color: #FFFFFF0D;
-  border: 0.84px solid #FFFFFF47;
+  background-color: #ffffff0d;
+  border: 0.84px solid #ffffff47;
 }
-.submit_card{
+.submit_card {
   padding: 13px 5px;
-  background-color: #FFFFFF14;
-  border: 0.55px solid #FFFFFF26;
+  background-color: #ffffff14;
+  border: 0.55px solid #ffffff26;
   border-radius: 11.05px;
   margin-top: 10px;
 }
-.submit_card img{
+.submit_card img {
   height: 390px;
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
   margin-bottom: 40px;
 }
-.submit_card a{
+.submit_card a {
   font-family: Clash Display Variable;
-font-weight: 600;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #FCFCFD;
-display: block;
-padding: 12px 18px;
-text-decoration: none;
-background: linear-gradient(to right, #098B30, #1CD47E);
-border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcfcfd;
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: linear-gradient(to right, #098b30, #1cd47e);
+  border-radius: 10px;
 }
-.submit_card a.add_comment{
+.submit_card a.add_comment {
   font-family: Clash Display Variable;
-font-weight: 600;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: #FCFCFD;
-display: block;
-padding: 12px 18px;
-text-decoration: none;
-background: #FFFFFF78;
-border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcfcfd;
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: #ffffff78;
+  border-radius: 10px;
 }
 
 .comment-section {
-        max-width: 540px;
-        margin: auto;
-        padding: 10px;
-    }
-    .comment-card {
-        border-radius: 14px;
-        background: #FFFFFF14;
-        padding: 12px;
-        box-shadow: 0 5px 14px rgba(0,0,0,0.05);
-        margin-bottom: 12px;
-  border: 0.55px solid #FFFFFF26;
-    }
-    .comment-avatar {
-        width: 42px;
-        height: 42px;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-    .comment-name {
-        font-weight: 600;
-        font-size: 0.94rem;
-        color: #ffffff;
-    }
-    .comment-time {
-        font-size: 0.78rem;
-        color: #ffffffb0;
-    }
-    .comment-text {
-        margin-top: 4px;
-        font-size: 0.92rem;
-        color: #ffffff;
-        line-height: 1.35rem;
-    }
-    .comment-actions button {
-        font-size: 0.85rem;
-        padding: 4px 8px;
-        border-radius: 6px;
-    }
-    .btn-like.active {
-        color: #000000;
-    }
-    #game_two_area{
-      background-image: url(../img/game_2.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 391px;
-      position: relative;
-    }
-  .game_two_banner{
-    position: absolute;
-    bottom: 10px;
-  }
-  .game_two_banner h3{
+  max-width: 540px;
+  margin: auto;
+  padding: 10px;
+}
+.comment-card {
+  border-radius: 14px;
+  background: #ffffff14;
+  padding: 12px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.05);
+  margin-bottom: 12px;
+  border: 0.55px solid #ffffff26;
+}
+.comment-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.comment-name {
+  font-weight: 600;
+  font-size: 0.94rem;
+  color: #ffffff;
+}
+.comment-time {
+  font-size: 0.78rem;
+  color: #ffffffb0;
+}
+.comment-text {
+  margin-top: 4px;
+  font-size: 0.92rem;
+  color: #ffffff;
+  line-height: 1.35rem;
+}
+.comment-actions button {
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.btn-like.active {
+  color: #000000;
+}
+#game_two_area {
+  background-image: url(../img/game_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 391px;
+  position: relative;
+}
+.game_two_banner {
+  position: absolute;
+  bottom: 10px;
+}
+.game_two_banner h3 {
   font-family: Clash Display Variable;
-font-weight: 700;
-font-size: 34px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #ffffff;
-  }
-  .game_two_banner p{
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 24px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-  }
-#game_two_main{
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.game_two_banner p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+#game_two_main {
   margin-top: 40px;
 }
 .game_two_content a {
-	font-family: Clash Display Variable;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-align: center;
-	text-transform: capitalize;
-	color: #FCFCFD;
-	display: block;
-	padding: 12px 18px;
-	text-decoration: none;
-	background: linear-gradient(to right, #098B30, #1CD47E);
-	border-radius: 10px;
+  font-family: Clash Display Variable;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcfcfd;
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: linear-gradient(to right, #098b30, #1cd47e);
+  border-radius: 10px;
 }
 .game_two_content .schedule_button a {
-	font-family: Clash Display Variable;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-align: center;
-	text-transform: capitalize;
-	color: #FCFCFD;
-	display: block;
-	padding: 12px 18px;
-	text-decoration: none;
-	background: #1DAE48;
-	border-radius: 38px;
-  border: 1px solid #FFFFFF
+  font-family: Clash Display Variable;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcfcfd;
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: #1dae48;
+  border-radius: 38px;
+  border: 1px solid #ffffff;
 }
-.game_two_content p{
-font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0%;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
-margin-top: 20px;
-margin-bottom: 33px;
+.game_two_content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 33px;
 }
-.schedule_button{
+.schedule_button {
   margin-bottom: 16px;
 }
 /* Wrapper */
 .leaderboard-wrapper {
-    background: #098B3021;
-    /* padding: 20px; */
-    border-radius: 15px;
-    /* max-width: 450px; */
-    margin: auto;
-    margin-bottom: 40px;
+  background: #098b3021;
+  /* padding: 20px; */
+  border-radius: 15px;
+  /* max-width: 450px; */
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 /* Table box */
 .leaderboard-table {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    padding: 0 0 10px 0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 0 0 10px 0;
 }
 
 /* Header */
 .leaderboard-table thead th {
-    background: #098B30;
-    color: #fff;
-    font-size: 14px;
-    padding: 10px;
+  background: #098b30;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
 }
 
 /* Rows */
 .leaderboard-table tbody tr {
-    border-top: 0.34px solid #FFFFFF26;
+  border-top: 0.34px solid #ffffff26;
 }
 
 .leaderboard-table tbody td {
-    color: #cfcfcf;
-    font-size: 14px;
-    padding: 10px;
+  color: #cfcfcf;
+  font-size: 14px;
+  padding: 10px;
 }
 
 /* First column bold */
 .leaderboard-table tbody td:first-child {
-    font-weight: 600;
-    color: #ffffff;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 /* Mobile Responsive */
 @media (max-width: 480px) {
-    .leaderboard-table thead {
-        font-size: 12px;
-    }
-    .leaderboard-table tbody td {
-        font-size: 12px;
-        padding: 8px;
-    }
+  .leaderboard-table thead {
+    font-size: 12px;
+  }
+  .leaderboard-table tbody td {
+    font-size: 12px;
+    padding: 8px;
+  }
 }
 .table > :not(caption) > * > * {
-	padding: .5rem .5rem;
-	background-color: var(--bs-table-bg);
-	border-bottom-width: 0px;
-	box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  padding: 0.5rem 0.5rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 0px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
-.weekly_match button{
-  border: 0.63px solid #FFFFFF33;
+.weekly_match button {
+  border: 0.63px solid #ffffff33;
   width: 42px;
   height: 38px;
-  background-color: #FFFFFF1A;
+  background-color: #ffffff1a;
   border-radius: 6.34px;
-font-family: "Open Sans", sans-serif;
-font-weight: 700;
-font-size: 13.9px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle;
-text-transform: capitalize;
-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13.9px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.weekly_match button.active{
-  background-color: #098B30;
+.weekly_match button.active {
+  background-color: #098b30;
   border: none;
 }
 .weekly_match a {
-font-family: "Open Sans", sans-serif;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-align: center;
-	text-transform: capitalize;
-	color: #FCFCFD;
-	display: block;
-	padding: 12px 18px;
-	text-decoration: none;
-	background: linear-gradient(to right, #098B30, #1CD47E);
-	border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fcfcfd;
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: linear-gradient(to right, #098b30, #1cd47e);
+  border-radius: 10px;
 }
-.weekly_match a img{
-margin-left: 8px;
+.weekly_match a img {
+  margin-left: 8px;
 }
-
 
 .bracket-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    margin-top: 40px;
-    margin-bottom: 140px;
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 40px;
+  margin-bottom: 140px;
 }
 
 .bracket-scroll {
-    display: flex;
-    gap: 15px;
-    position: relative;
+  display: flex;
+  gap: 15px;
+  position: relative;
 }
 
 /* All Columns */
 .bracket-col {
-    min-width: 95%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  min-width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .match-card {
-    background: #0d1b26;
-    border-radius: 12px;
-    color: #fff;
-    /* padding: 20px; */
-    text-align: center;
+  background: #0d1b26;
+  border-radius: 12px;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
 }
 
 /* COLUMN 2 CENTERING */
 .col-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .middle-box {
-	display: flex;
-	flex-direction: column;
-	gap: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
 }
 
 /* COLUMN 3 Final Centering */
 .col-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .final-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ------- 2 ARROWS GROUP (col1→col2) ------- */
 .arrow-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 180px;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+  position: relative;
 }
 
 .arrow-line {
-    width: 60px;
-    position: relative;
+  width: 60px;
+  position: relative;
 }
-
-
-
 
 /* 2nd → 3rd column: Single middle line */
 .arrow-group-single {
-    display: flex;
-    align-items: center;
-    height: 180px; /* auto center */
+  display: flex;
+  align-items: center;
+  height: 180px; /* auto center */
 }
 
 .arrow-group-single .arrow-line {
-    width: 60px;
+  width: 60px;
 }
 
 /* Position logic */
 .arrow-col1 {
-	margin-top: 110px;
+  margin-top: 110px;
 }
 .arrow-col2 {
-    margin-top: 35px; /* perfect center between card 5 & 6 */
+  margin-top: 35px; /* perfect center between card 5 & 6 */
 }
-
 
 .bracket-scroll .match-card .player-row {
-	background: #FFFFFF0D;
-	border-radius: 15px;
-	padding: 12px;
-	margin-bottom: 10px;
-  border: 1px solid #FFFFFF4D;
+  background: #ffffff0d;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff4d;
 }
 .bracket-scroll .match-card .player-row span.name {
-
   font-family: "Clash Display Variable";
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-transform: capitalize;
-	color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 .bracket-scroll .player-row span {
-	font-family: "Bebas Neue", sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-transform: capitalize;
-	color: #FFFFFF;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 .bracket-scroll .game-card h5 {
-font-family: "Clash Display Variable";
-	font-weight: 400;
-	font-size: 22.5px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	text-transform: capitalize;
-	color: #ffffff;
+  font-family: "Clash Display Variable";
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #ffffff;
 }
-.arrow-line.arrow-top img{
-	width: 66px;
-	position: absolute;
-	left: 0px;
-	top: 0px;
+.arrow-line.arrow-top img {
+  width: 66px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 .arrow-line.arrow-bottom img {
-	width: 66px;
-	position: absolute;
-	left: 0px;
-	top: 375px;
+  width: 66px;
+  position: absolute;
+  left: 0px;
+  top: 375px;
 }
 .arrow-group-single img.line_top {
-	position: absolute;
-	top: 180px;
+  position: absolute;
+  top: 180px;
 }
 .arrow-group-single img.line_bottom {
-	position: absolute;
-	top: 490px;
-	left: 5px;
+  position: absolute;
+  top: 490px;
+  left: 5px;
 }
-.game_two_last_con p{
+.game_two_last_con p {
   font-family: "Open Sans", sans-serif;
-font-weight: 400;
-font-size: 13.37px;
+  font-weight: 400;
+  font-size: 13.37px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.game_two_last_con .last_img {
+  padding: 13px 15px;
+  background-color: #ffffff0d;
+  border-radius: 17px;
+  border: 1.11px solid #ffffff4d;
+  margin-bottom: 22px;
+}
+.game_two_last_con .last_img img {
+  width: 100%;
+  border-radius: 17px;
+}
+.gamr_two_table_bottom p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.online_status h3 {
+  font-family: "Clash Display Variable";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #098b30;
+}
+
+/* UNIQUE WRAPPER */
+#submit_result .jx-submit-wrapper {
+  max-width: 480px;
+  margin: auto;
+  padding: 15px;
+}
+
+/* HEADER */
+#submit_result .jx-submit-title h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* MATCH CARD */
+#submit_result .jx-match-card {
+  background: #098b3021;
+  padding: 18px;
+  border-radius: 14px;
+  text-align: center;
+}
+#submit_result .jx-match-card h5 {
+  font-family: "Clash Display Variable";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+#submit_result .jx-match-card h5 span {
+  font-family: "Clash Display Variable";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffee00;
+  margin: 0 10px;
+}
+#submit_result .jx-match-card h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+#submit_result .jx-match-info {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+/* RADIO SELECTION */
+#submit_result .jx-radio-section {
+  background: #ffffff21;
+  padding: 18px;
+  border-radius: 14px;
+  margin-top: 18px;
+}
+#submit_result .jx-radio-section h5 {
+  font-family: "Clash Display Variable";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+#submit_result .jx-radio-option {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/* SCORE TABLE */
+#submit_result .jx-score-box {
+  width: 100%;
+  background: #098b3021;
+  margin-top: 18px;
+  border-radius: 14px;
+  padding: 15px;
+}
+#submit_result .jx-score-box table {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+}
+#submit_result .jx-score-box input {
+  width: 42px;
+  height: 38px;
+  background: #001f0d;
+  border: 1px solid #0f5a31;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  outline: none;
+}
+/* Normal table borders */
+/* Remove all default borders first */
+#submit_result th,
+#submit_result td,
+#submit_result tr {
+  border: none;
+  padding: 10px;
+}
+
+/* th → only top & bottom border */
+#submit_result th {
+  border-top: 2px solid #098b30;
+  border-bottom: 2px solid #098b30;
+  border-left: 2px solid #098b30;
+  border-radius: 20px 20px 0 0; /* optional rounded top */
+}
+
+/* td → only left & right border via tr */
+#submit_result tr td {
+  border-left: 2px solid #098b30;
+  border-right: 2px solid #098b30;
+  border-bottom: 2px solid #098b30;
+}
+#submit_result tr th.no-border {
+  border-top: 0px solid #098b30;
+  border-right: 0px solid #098b30;
+  border-left: 0px solid #098b30;
+}
+#submit_result tr th.yes-border {
+  border-right: 2px solid #098b30;
+}
+
+/* Optional: add bottom border for last row */
+#submit_result tbody tr:last-child td {
+  border-bottom: 2px solid #098b30;
+}
+
+/* Optional: add top border for first row under thead */
+#submit_result tbody tr:first-child td {
+  border-top: 0; /* already th has top border */
+}
+
+/* BUTTONS */
+#submit_result .jx-btn-submit {
+  font-family: Clash Display Variable;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(252, 252, 253);
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(9, 139, 48), rgb(28, 212, 126));
+  border-radius: 10px;
+  width: 60%;
+  border: none;
+}
+#submit_result .jx-btn-back {
+  font-family: Clash Display Variable;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(252, 252, 253);
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  background: linear-gradient(to right, rgb(170, 160, 13), rgb(172, 212, 28));
+  border-radius: 10px;
+  width: 40%;
+  border: none;
+}
+/* Wrapper */
+#submit_result .jx-radio-section h5 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* radio option row */
+#submit_result .jx-radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  font-size: 15px;
+  user-select: none;
+  margin-top: 2px;
+}
+#submit_result .jx-radio-option p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+/* hide original radio */
+#submit_result .jx-radio-option input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* custom radio circle */
+#submit_result .jx-radio-mark {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #098b30;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: 0.25s ease;
+}
+
+/* inner filled dot */
+#submit_result .jx-radio-mark::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background: #098b30;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.25s ease;
+}
+
+/* checked effect */
+#submit_result .jx-radio-option input:checked ~ .jx-radio-mark {
+  border-color: #098b30;
+}
+
+#submit_result .jx-radio-option input:checked ~ .jx-radio-mark::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* hover effect (premium touch) */
+#submit_result .jx-radio-option:hover .jx-radio-mark {
+  border-color: #0fbf44;
+}
+
+.chat-header {
+  background: #098B3021;
+  padding: 12px;
+}
+.chat-header img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+  object-fit: cover;
+}
+.chat-header h6{
+font-family: Clash Display Variable;
+font-weight: 500;
+font-size: 20px;
 line-height: 100%;
 letter-spacing: 0%;
-vertical-align: middle;
 text-transform: capitalize;
 color: #ffffff;
 }
-.game_two_last_con .last_img{
-padding: 13px 15px;
-background-color: #FFFFFF0D;
-border-radius: 17px;
-border: 1.11px solid #FFFFFF4D;
-margin-bottom: 22px;
-}
-.game_two_last_con .last_img img{
-  width: 100%;
-border-radius: 17px;
-}
-.gamr_two_table_bottom p{
-  font-family: "Open Sans", sans-serif;
+.chat-header small{
+font-family: Clash Display Variable;
 font-weight: 400;
 font-size: 14px;
 line-height: 100%;
 letter-spacing: 0%;
-vertical-align: middle;
 text-transform: capitalize;
-color: #ffffff;
-margin-bottom: 20px;
+color: #ffffff83;
+}
+.chat-body {
+  height: calc(100vh - 140px);
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.msg {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 8px;
+}
+.msg-left {
+  background: #FFFFFF1A;
+  align-items: flex-start;
+  color: #ffffff;
+}
+.msg-right {
+  background: #d1f2ff;
+  margin-left: auto;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+
+.msg img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.chat-footer {
+  background: #098B3021;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+.input-group input {
+	background: #0b141d;
+	border: .3px solid #fff;
+	border-radius: 8px;
+	height: 60px;
+	color: #ffffff;
+}
+.send-btn {
+  border-radius: 8px;
+  border-top: .3px solid #fff;
+  border-right: .3px solid #fff;
+  border-bottom: .3px solid #fff;
+  background-color: #000000;
+}
+.send-btn img{
+  width: 28px;
+}
+.btn-check:focus + .btn, .btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 0 rgba(13,110,253,.25);
 }

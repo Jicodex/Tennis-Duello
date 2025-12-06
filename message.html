@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message - Tennis Duello</title>
+    <!-- ========== All Css Link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ========== Navbar Start Here  -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="d-flex align-items-center">
+            <img src="assets/img/logo.svg" alt="logo" />
+          </div>
+        </a>
+
+        <!-- Custom Toggle Button -->
+        <div class="custom-select-wrapper d-none">
+          <div class="custom-select">
+            <div class="custom-select-trigger">
+              <img src="assets/img/icons/united-states.svg" alt="flag" />
+              <span>En</span>
+            </div>
+            <div class="custom-options">
+              <div class="custom-option" data-value="en">
+                <img src="assets/img/icons/united-states.svg" alt="flag" /> En
+              </div>
+              <div class="custom-option" data-value="bd">
+                <img src="assets/img/icons/bangladesh.svg" alt="flag" /> Bn
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="lang" id="lang" />
+        </div>
+
+        <button class="navbar-toggler custom-toggler" type="button">
+          <!-- Bar Icon -->
+          <span class="icon-bar svg-icon path-thick" id="toggleIcon">
+            <svg width="28" height="28" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M3 6h18M3 12h18M3 18h18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+        </button>
+
+        <button class="top_message" id="msgToggleBtn">
+          <img src="assets/img/icons/comments.svg" alt="icon" />
+          <div class="message_count">2</div>
+        </button>
+        <!-- Message Popup -->
+        <!-- <div class="message_popup" id="messagePopup">
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Daniel</h6>
+              <p>Thanks!</p>
+            </div>
+            <span>2:17 PM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Emma</h6>
+              <p>Let's play!</p>
+            </div>
+            <span class="online_dot"></span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Alex</h6>
+              <p>Tomorrow</p>
+            </div>
+            <span>Tomorrow</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Rachel</h6>
+              <p>Congratulations!</p>
+            </div>
+            <span>11:15 AM</span>
+          </a>
+
+          <a href="#" class="msg_item">
+            <img src="assets/img/player.png" alt="user" />
+            <div>
+              <h6>Coach Miller</h6>
+              <p>Nice shot.</p>
+            </div>
+            <span>9:30 AM</span>
+          </a>
+        </div> -->
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== Navbar End Here  -->
+
+    <!-- ========== Banner Section Start Here  -->
+    <section id="profile_banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="profile_page_title page_name text-center mb-4">
+              <h3>Your All Message</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Banner Section Start Here  -->
+
+    <!-- ========== Meesage List Section End Here  -->
+    <section id="message_area_list" class="mb-5">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="d-flex online_status">
+                    <h3>Total Online: 24 <span class="text-white"> (209)</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="message_popup" id="messagePopup">
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Daniel</h6>
+                  <p>Thanks!</p>
+                </div>
+                <span>2:17 PM</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Emma</h6>
+                  <p>Let's play!</p>
+                </div>
+                <span class="online_dot"></span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Alex</h6>
+                  <p>Tomorrow</p>
+                </div>
+                <span>Tomorrow</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Rachel</h6>
+                  <p>Congratulations!</p>
+                </div>
+                <span>11:15 AM</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Coach Miller</h6>
+                  <p>Nice shot.</p>
+                </div>
+                <span>9:30 AM</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Daniel</h6>
+                  <p>Thanks!</p>
+                </div>
+                <span>2:17 PM</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Emma</h6>
+                  <p>Let's play!</p>
+                </div>
+                <span class="online_dot"></span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Alex</h6>
+                  <p>Tomorrow</p>
+                </div>
+                <span>Tomorrow</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Rachel</h6>
+                  <p>Congratulations!</p>
+                </div>
+                <span>11:15 AM</span>
+              </a>
+
+              <a href="#" class="msg_item">
+                <img src="assets/img/player.png" alt="user" />
+                <div>
+                  <h6>Coach Miller</h6>
+                  <p>Nice shot.</p>
+                </div>
+                <span>9:30 AM</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== Meesage List Section Start Here  -->
+
+    <!-- ========== Footer Section Start Here  -->
+    <footer id="footer_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/footer_logo.png" alt="logo" class="w-100" />
+          </div>
+          <div class="col-6">
+            <div class="footer_menu text-end">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copyright mt-4">
+          <div class="col-lg-12">
+            <div class="social_icon d-flex justify-content-center gap-1 mb-3">
+              <a href="#"
+                ><img src="assets/img/icons/InstagramLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/LinkedinLogo.svg" alt="icon"
+              /></a>
+              <a href="#"
+                ><img src="assets/img/icons/FacebookLogo.svg" alt="icon"
+              /></a>
+            </div>
+            <p>
+              Copyright © 2025 <a href="#">Tennisduello.com</a> . All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== Footer Section End Here  -->
+
+    <!-- ========== All JS Link  -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
